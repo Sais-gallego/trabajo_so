@@ -3,8 +3,9 @@
 **Destinatario:** King Broasted Neiva
 **Canal:** Pendiente WhatsApp (311 8211048 / 313 3380195)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Plan Completo — $650.000 COP
-**Palabras en el correo:** 124 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Palabras en el correo:** 137 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/king_broasted/
 
 ---
 
@@ -15,13 +16,13 @@ King Broasted — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración de cómo se vería la web oficial de King Broasted resaltando tus combos de pollo crujiente y tus diferentes sedes en Neiva. Mírala en este link: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, preparé una demostración de cómo se vería la web oficial de King Broasted resaltando tus combos de pollo crujiente y tus diferentes sedes en Neiva. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/king_broasted/
 
-Tus clientes en Granjas, Centro o Buganviles encontrarán la sede más cercana en segundos y pedirán sus combos familiares directo al WhatsApp sin pagar comisiones a terceros.
+Tus clientes en Granjas, Centro o Buganviles encontrarán la sede más cercana en segundos, y tú mismo podrás actualizar fotos de combos y precios desde tu propio panel editor sin pagarle a nadie más.
 
-Para King Broasted sugiero el Plan Completo por $650.000 COP (pago único), con menú interactivo y selector de sedes. El hosting profesional es como el arriendo anual de tu espacio digital (desde $180.000/año con alta velocidad) y el dominio .com.co desde $45.000/año.
+Para King Broasted sugiero la Página Completa por $1.000.000 COP (pago único), con menú del día, carta completa y editor CMS. El hosting profesional es aparte (arriendo anual de tu espacio en la red, desde $180.000/año directo al proveedor; nosotros no ganamos nada ahí) y dominio desde $45.000/año.
 
-Si te gusta lo que ves, respóndeme este correo o escríbeme por WhatsApp para coordinar una pequeña demostración sin compromiso.
+Si te gusta lo que ves, respóndeme este correo o hablemos por WhatsApp para coordinar una pequeña demostración sin compromiso.
 
 SAIS Gallego
 g46113026@gmail.com
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *King Broasted Neiva* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *King Broasted Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/king_broasted/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -51,7 +52,7 @@ github.com/sais-gallego
 ### Datos del Negocio:
 - **Tipo de Negocio:** Restaurante / Pollo Broaster
 - **Teléfono / WhatsApp:** 311 8211048 / 313 3380195
-- **Dirección:** Av. 26 (Granjas) / Centro / Buganviles / Oasis Plaza, Neiva, Huila
+- **Dirección:** Av. 26 (Granjas) · Cra. 7 con Cl. 9 (Centro) · Buganviles · Oasis Plaza, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/king_broasted/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/king_broasted/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

@@ -1,10 +1,10 @@
 ASUNTO: Restaurante Pincho Parrilla — así quedaría su página web 🔥
 
-Hola, preparé una demostración de cómo se vería la página web de Pincho Parrilla con tus pinchos, cortes al carbón y la ubicación de El Altico. Échale un ojo aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, preparé una demostración de cómo se vería la web de Pincho Parrilla con tus pinchos, cortes al carbón y la ubicación de El Altico. Échale un ojo en vivo aquí: https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
 
-Tus platos aparecerán en Google cuando alguien busque comida a la parrilla en Neiva y tus comensales verán la carta con fotos claras antes de pedir a domicilio.
+Tus platos aparecerán en Google cuando busquen parrilla en Neiva y tus comensales pedirán a domicilio al WhatsApp con un clic. Además, podrás actualizar precios y combos tú mismo sin intermediarios.
 
-El Plan Básico por $350.000 COP (pago único) te incluye página completa, menú con fotos, botón a WhatsApp y mapa integrado. El hosting es el arriendo anual de tu página (desde $80.000/año) y el dominio propio desde $45.000/año.
+El plan de $500.000 COP (pago único) te incluye página completa, menú del día, carta con fotos, mapa y editor en vivo. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos nada ahí) y el dominio propio desde $45.000/año.
 
 Si te llama la atención, responde este correo o escríbeme por WhatsApp para ver la demo con calma, sin afanes.
 

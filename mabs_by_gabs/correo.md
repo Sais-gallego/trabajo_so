@@ -3,8 +3,9 @@
 **Destinatario:** Mabs by Gabs
 **Canal:** Correo Electrónico (mabsbygabs@gmail.com)
 **Estado:** Enviado
-**Plan Sugerido:** Plan Completo — $650.000 COP
-**Palabras en el correo:** 125 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Palabras en el correo:** 136 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 ---
 
@@ -15,11 +16,11 @@ Mabs by Gabs — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, armé una demostración interactiva de cómo quedaría la página web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, armé una demostración interactiva de cómo quedaría la web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo en vivo aquí: https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
-Tus clientas podrán explorar tu colección de ropa desde el celular antes de visitarte en Sevilla y agendar sus citas de belleza en segundos, todo en un solo lugar.
+Tus clientas podrán explorar tu colección de ropa desde el celular antes de visitarte en Sevilla y agendar citas en segundos. Además, podrás subir prendas nuevas y cambiar precios tú misma en minutos.
 
-Te recomiendo el Plan Completo por $650.000 COP (pago único), con catálogo visual, agenda y posicionamiento en Google. El hosting funciona como el arriendo anual de tu local en internet (desde $180.000/año profesional) y el dominio .co desde $45.000/año.
+Te recomiendo la Página Completa por $1.000.000 COP (pago único), con catálogo visual, agenda y editor CMS. El hosting es aparte (el arriendo anual de tu local en internet, desde $180.000/año directo al proveedor; nosotros no ganamos nada ahí) y el dominio .co desde $45.000/año.
 
 Si te suena la propuesta, responde este correo o hablemos por WhatsApp para adaptarla a tu gusto, sin ningún compromiso.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *Mabs by Gabs* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *Mabs by Gabs* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -53,5 +54,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 317 3631632
 - **Dirección:** Calle 22 # 5A - 56, Barrio Sevilla, Neiva, Huila
 - **Correo Electrónico:** mabsbygabs@gmail.com
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/mabs_by_gabs/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

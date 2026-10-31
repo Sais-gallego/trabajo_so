@@ -3,8 +3,9 @@
 **Destinatario:** Master Tools Ferretería
 **Canal:** Pendiente WhatsApp (323 3143395)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Plan Completo — $650.000 COP
-**Palabras en el correo:** 118 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Palabras en el correo:** 121 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/master_tools_ferreteria/
 
 ---
 
@@ -15,11 +16,11 @@ Master Tools Ferretería — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración visual de cómo quedaría la página web de Master Tools en Neiva con tus marcas de herramientas eléctricas y equipos profesionales. Mírala aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, preparé una demostración visual de cómo quedaría la web de Master Tools en Neiva con tus marcas de herramientas eléctricas y equipos profesionales. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/master_tools_ferreteria/
 
-Ganarás presencia en Google frente a compradores industriales de la región y tus clientes podrán revisar fichas técnicas de herramientas antes de comprar en tienda.
+Ganarás presencia en Google frente a compradores industriales del Huila, y podrás subir fichas técnicas, fotos de maquinaria y cambiar precios tú mismo sin pagar por mantenimiento.
 
-Para Master Tools recomiendo el Plan Completo por $650.000 COP (pago único) con catálogo amplio y SEO para destacar en Neiva. El hosting profesional es el arriendo anual de tu espacio en la red (desde $180.000/año con correo corporativo) más el dominio desde $45.000/año.
+Para Master Tools recomiendo la Página Completa por $1.000.000 COP (pago único) con catálogo amplio, SEO local y editor CMS. El hosting profesional es aparte (arriendo anual directo al proveedor, desde $180.000/año con correo corporativo; nosotros no ganamos ahí) más el dominio desde $45.000/año.
 
 Si te parece interesante, responde este mensaje o escríbeme al WhatsApp para ver los detalles con tranquilidad.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *Master Tools Ferretería* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *Master Tools Ferretería* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/master_tools_ferreteria/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -53,5 +54,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 323 3143395
 - **Dirección:** Carrera 5 # 5 - 48, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/master_tools_ferreteria/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/master_tools_ferreteria/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

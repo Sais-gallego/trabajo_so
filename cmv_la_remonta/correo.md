@@ -3,8 +3,9 @@
 **Destinatario:** CMV La Remonta
 **Canal:** Correo Electrónico (cmv.laremonta@hotmail.com)
 **Estado:** Enviado
-**Plan Sugerido:** Plan Completo — $650.000 COP
-**Palabras en el correo:** 113 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Palabras en el correo:** 122 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
 
 ---
 
@@ -15,11 +16,11 @@ CMV La Remonta — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, diseñé una demostración de cómo luciría la página web de CMV La Remonta con tus servicios de consulta, vacunación, cirugías y sede en La Rioja. Conócela aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, diseñé una demostración de cómo luciría la web de CMV La Remonta con tus servicios de consulta, vacunación, cirugías y sede en La Rioja. Conócela en vivo aquí: https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
 
-Los dueños de mascotas en Neiva podrán agendar controles preventivos rápidamente y tener a la mano tu línea de atención prioritaria ante cualquier urgencia veterinaria.
+Los dueños de mascotas en Neiva podrán agendar controles preventivos rápidamente y tener a la mano tu línea de urgencias. Además, podrás actualizar campañas de vacunación tú mismo en tu panel.
 
-Para la clínica recomiendo el Plan Completo por $650.000 COP (pago único) con agenda de citas y galería de instalaciones. El hosting profesional es el arriendo anual de tu espacio web (desde $180.000/año) y el dominio .com.co desde $45.000/año.
+Para la clínica recomiendo la Página Completa por $1.000.000 COP (pago único) con agenda de citas, galería y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $180.000/año; nosotros no ganamos ahí) y el dominio .com.co desde $45.000/año.
 
 Si te interesa revisarla, respóndeme este correo o escríbeme al WhatsApp y charlamos sin ningún compromiso.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *CMV La Remonta* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *CMV La Remonta* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -53,5 +54,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 316 4647168
 - **Dirección:** Carrera 46 # 20A - 35, Barrio La Rioja, Neiva, Huila
 - **Correo Electrónico:** cmv.laremonta@hotmail.com
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/cmv_la_remonta/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

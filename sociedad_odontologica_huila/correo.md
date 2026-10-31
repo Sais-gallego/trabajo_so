@@ -3,8 +3,9 @@
 **Destinatario:** Sociedad Odontológica del Huila
 **Canal:** Correo Electrónico (info@odontoclinicasmr.com)
 **Estado:** Enviado
-**Plan Sugerido:** Plan Completo — $650.000 COP
-**Palabras en el correo:** 119 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Palabras en el correo:** 120 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
 
 ---
 
@@ -15,11 +16,11 @@ Sociedad Odontológica del Huila — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, te preparé una demostración de cómo se vería la página web de la Sociedad Odontológica del Huila con tus especialidades odontológicas y sede en la Calle 12. Puedes verla aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, te preparé una demostración de cómo se vería la web de la Sociedad Odontológica del Huila con tus especialidades odontológicas y sede en la Calle 12. Puedes verla en vivo aquí: https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
 
-Tus pacientes podrán solicitar valoración médica desde la comodidad de su celular y encontrar información clara sobre ortodoncia, implantes y diseño de sonrisa en Neiva.
+Tus pacientes podrán solicitar valoración médica desde el celular y encontrar información sobre ortodoncia e implantes. Además, podrán actualizar tratamientos y promociones del mes desde su propio panel.
 
-Recomiendo el Plan Completo por $650.000 COP (pago único), con formulario de citas, presentación de especialistas y SEO local. El hosting profesional es el arriendo anual de tu espacio en internet (desde $180.000/año con certificado SSL médico) y dominio desde $45.000/año.
+Recomiendo la Página Completa por $1.000.000 COP (pago único), con citas, médicos y editor CMS. El hosting profesional es aparte (arriendo anual directo al proveedor, desde $180.000/año con SSL médico; nosotros no ganamos ahí) y dominio desde $45.000/año.
 
 Quedo a tu disposición si respondes este correo o por WhatsApp para resolver dudas con total tranquilidad.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *Sociedad Odontológica del Huila* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *Sociedad Odontológica del Huila* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -51,7 +52,7 @@ github.com/sais-gallego
 ### Datos del Negocio:
 - **Tipo de Negocio:** Clínica Dental / Salud
 - **Teléfono / WhatsApp:** 320 8371077 / (608) 8712596
-- **Dirección:** Calle 12 # 4 - 16, Neiva, Huila
+- **Dirección:** Calle 12 # 4 - 16, Centro, Neiva, Huila
 - **Correo Electrónico:** info@odontoclinicasmr.com
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/sociedad_odontologica_huila/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

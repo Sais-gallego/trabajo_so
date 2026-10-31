@@ -3,8 +3,9 @@
 **Destinatario:** Serendipia Neiva
 **Canal:** Pendiente WhatsApp (304 3318937)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Plan Básico — $350.000 COP
-**Palabras en el correo:** 122 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Web Esencial — $500.000 COP
+**Palabras en el correo:** 126 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/serendipia_neiva/
 
 ---
 
@@ -15,11 +16,11 @@ Serendipia Neiva — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, te armé una demostración especial de cómo luciría la página web de Serendipia con la vibra acogedora de tu café en El Altico y tu carta de desayunos. Mírala en este enlace: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, te armé una demostración especial de cómo luciría la página web de Serendipia con la vibra acogedora de tu café en El Altico y tu carta de desayunos. Mírala en este enlace: https://sais-gallego.github.io/trabajo_so/serendipia_neiva/
 
-Tus clientes podrán consultar tus horarios exactos al instante y reservar mesa para cumpleaños o grupos de amigas sin enredos, directo desde el celular.
+Tus clientes podrán consultar tus horarios exactos y reservar mesa sin enredos, y tú misma podrás activar el menú del día o cambiar precios de repostería desde tu propio panel.
 
-Para Serendipia el Plan Básico por $350.000 COP (pago único) es ideal para tener tu menú con fotos, ubicación y WhatsApp directo. El hosting es el arriendo de tu espacio en internet y se paga al año (desde $80.000/año) más tu dominio desde $45.000/año.
+Para Serendipia el plan de $500.000 COP (pago único) es ideal para tener tu menú con fotos, ubicación, WhatsApp y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) más tu dominio desde $45.000/año.
 
 Si quieres revisarla juntos, solo responde este mensaje o escríbeme por WhatsApp cuando te quede cómodo.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *Serendipia Neiva* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *Serendipia Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/serendipia_neiva/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -53,5 +54,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 304 3318937
 - **Dirección:** Calle 6 # 10 - 91, Barrio El Altico, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/serendipia_neiva/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/serendipia_neiva/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

@@ -3,8 +3,9 @@
 **Destinatario:** Vaqueras Sede Altico
 **Canal:** Pendiente WhatsApp (316 8875987 / 321 9155732)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Plan Básico — $350.000 COP
-**Palabras en el correo:** 122 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Web Esencial — $500.000 COP
+**Palabras en el correo:** 131 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
 ---
 
@@ -15,11 +16,11 @@ Vaqueras Sede Altico — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, diseñé una demostración de cómo se vería la página web de Vaqueras Sede Altico con sus cortes, hamburguesas y promociones del restaurante. Puedes verla aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, diseñé una demostración de cómo se vería la página web de Vaqueras Sede Altico con sus cortes, hamburguesas y promociones del restaurante. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
-Cuando la gente busque dónde comer hamburguesas o carne en Neiva los fines de semana, verán tu carta con fotos provocativas y pedirán directo a tu WhatsApp con un solo clic.
+Cuando la gente busque dónde comer en Neiva, verán tu carta con fotos provocativas y pedirán directo al WhatsApp. Además, tú mismo podrás editar platos y subir fotos cuando quieras desde tu panel.
 
-Para empezar, el Plan Básico por $350.000 COP (pago único) te deja la carta digital lista, botón de WhatsApp y Google Maps. El hosting es el arriendo anual de tu espacio en la red (desde $80.000/año) y el dominio .com.co desde $45.000/año.
+Para empezar, el plan de $500.000 COP (pago único) te incluye carta digital, menú del día, WhatsApp y editor en vivo. El hosting es aparte (el arriendo anual de tu espacio en internet, desde $80.000/año directo al proveedor; nosotros no ganamos ahí) y el dominio propio desde $45.000/año.
 
 Cuéntame si te gusta respondiendo este correo o por WhatsApp para ajustar los platos que prefieras, sin compromiso.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *Vaqueras Sede Altico* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *Vaqueras Sede Altico* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -51,7 +52,7 @@ github.com/sais-gallego
 ### Datos del Negocio:
 - **Tipo de Negocio:** Restaurante / Carnes
 - **Teléfono / WhatsApp:** 316 8875987 / 321 9155732
-- **Dirección:** Cra. 14A # 6 - 15, Barrio El Altico, Neiva, Huila
+- **Dirección:** Carrera 14A # 6 - 15, Barrio El Altico, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/vaqueras_sede_altico/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

@@ -3,8 +3,9 @@
 **Destinatario:** Ferretería Comercial Ferretera
 **Canal:** Pendiente WhatsApp (311 2728289 / (608) 8715054)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Plan Básico — $350.000 COP
-**Palabras en el correo:** 117 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Página Web Esencial — $500.000 COP
+**Palabras en el correo:** 125 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
 ---
 
@@ -15,11 +16,11 @@ Ferretería Comercial Ferretera — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, monté una demostración de cómo luciría la página web de Comercial Ferretera con tus categorías de materiales, herramientas y ubicación en el centro de Neiva. Puedes revisarla aquí: https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Hola, monté una demostración de cómo luciría la página web de Comercial Ferretera con tus categorías de materiales, herramientas y ubicación en el centro de Neiva. Puedes revisarla aquí: https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
-Tus clientes maestros de obra y contratistas podrán consultar tu catálogo desde la obra y pedir cotizaciones rápidas por WhatsApp sin tener que desplazarse hasta la Cra 3.
+Tus clientes maestros de obra podrán consultar tu catálogo desde la obra y pedir cotizaciones rápidas por WhatsApp, y tú mismo podrás actualizar productos destacados cuando quieras desde tu panel.
 
-Te sugiero el Plan Básico por $350.000 COP (pago único) para tener catálogo de líneas, mapa y contacto directo. El hosting es el arriendo anual de tu espacio en internet (desde $80.000/año) y el dominio .com.co desde $45.000/año.
+Te sugiero el plan de $500.000 COP (pago único) para tener catálogo de líneas, mapa, WhatsApp y editor CMS. El hosting es aparte (arriendo anual de tu espacio web, desde $80.000/año directo al proveedor; nosotros no ganamos ahí) y el dominio .com.co desde $45.000/año.
 
 ¿Te gustaría revisarla? Respóndeme este correo o hablemos por WhatsApp para resolver cualquier inquietud sin ningún compromiso.
 
@@ -32,14 +33,14 @@ github.com/sais-gallego
 
 ### Versión Alternativa Rápida para WhatsApp:
 ```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web aquí en Neiva 👋
+*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
-Te preparé una demostración exclusiva de cómo quedaría la página web de *Ferretería Comercial Ferretera* con tus servicios, fotos y botón directo a WhatsApp. Puedes verla aquí:
-👉 https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
+Te preparé una demostración exclusiva de cómo quedaría la web de *Ferretería Comercial Ferretera* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
+👉 https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
-Tenemos planes desde *$350.000 COP* (pago único) con dominio .com.co incluido. El hosting (arriendo de tu espacio en la red) es anual desde $80.000/año.
+Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
-Si quieres que la revisemos juntos y ajustemos los detalles sin ningún compromiso, cuéntame por acá!
+Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
 *SAIS Gallego*
 g46113026@gmail.com
@@ -51,7 +52,7 @@ github.com/sais-gallego
 ### Datos del Negocio:
 - **Tipo de Negocio:** Ferretería
 - **Teléfono / WhatsApp:** 311 2728289 / (608) 8715054
-- **Dirección:** Carrera 3 # 4-24, Centro, Neiva, Huila
+- **Dirección:** Carrera 3 # 4 - 24, Centro, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo:** https://claude.ai/artifact/6p8wEVA8iQzYwsirn12npA
-- **Mockup Local:** `http://localhost/trabajo_so/ferreteria_comercial_ferretera/index.html`
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so
