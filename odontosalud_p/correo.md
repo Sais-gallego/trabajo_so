@@ -1,0 +1,84 @@
+# Correo de Prospección Comercial — Clínica Odontosalud-P
+
+**Destinatario:** Clínica Odontosalud-P
+**Canal:** Correo Electrónico (clinicaodontosalud_p@hotmail.com)
+**Estado:** Listo para envío
+**Plan:** Plan Completo: $650.000 COP (pago único)
+**Enlace Demo:** https://sais-gallego.github.io/trabajo_so/odontosalud_p/
+
+---
+
+### Asunto del Correo:
+```text
+Propuesta de página web para Clínica Odontosalud-P
+```
+
+### Cuerpo del Correo:
+```text
+Hola, equipo de Clínica Odontosalud-P:
+
+¿Han considerado tener una página web propia donde sus clientes puedan conocer sus tratamientos dentales, solicitar valoración médica y agendar citas fácilmente?
+
+Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Clínica Odontosalud-P.
+
+🦷 Una página web pensada para su clínica odontológica especializada
+La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
+
+Entre sus funcionalidades encontrarán:
+- Especialidades odontológicas: ortodoncia invisible y tradicional, implantes, diseño de sonrisa y endodoncia.
+- Agenda de citas en línea: formulario optimizado para solicitud de valoración desde cualquier teléfono.
+- Contacto y sedes: ubicación geográfica de la sede Quirinal y sede Centro Comercial San Pedro Plaza.
+- Galería clínica: fotografías de instalaciones modernas, bioseguridad y tecnología digital.
+- Panel administrativo (CMS): publicar campañas de profilaxis, convenios y promociones sin conocimientos de código.
+
+Conozcan cómo podría verse su clínica odontológica especializada en Internet:
+🌐 https://sais-gallego.github.io/trabajo_so/odontosalud_p/
+
+Esta es una demostración inicial preparada para Clínica Odontosalud-P. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
+
+💻 Propuesta de inversión
+
+Plan Completo: $650.000 COP (pago único)
+Incluye:
+- Diseño y desarrollo de la web clínica odontológica.
+- Adaptación para celulares, tabletas y computadores.
+- Módulo de solicitud de citas online.
+- Galería de casos de estética dental y consultorios.
+- Panel administrativo (CMS).
+- Configuración y publicación del sitio web.
+
+Servicios de alojamiento y dominio:
+- Hosting H2: $170.000 COP anuales.
+- Dominio .com.co: desde $52.000 COP anuales.
+Estos servicios se contratan directamente con el proveedor de hosting.
+
+Inversión estimada del primer año: $872.000 COP.
+El desarrollo se paga una sola vez. El hosting y el dominio corresponden a renovaciones anuales.
+
+¿Hablamos del proyecto?
+Me gustaría tener la oportunidad de presentarles esta propuesta y conocer qué funcionalidades consideran importantes para su clínica odontológica especializada.
+
+Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible para resolver sus dudas y ajustar la propuesta sin ningún compromiso.
+
+Gracias por su tiempo.
+
+Atentamente,
+
+SAIS Gallego
+Desarrollo web y soluciones digitales
+Correo: g46113026@gmail.com
+GitHub: https://github.com/Sais-gallego
+
+---
+Si no desea recibir más información sobre este servicio, por favor responda indicándolo y no volveremos a escribirle.
+```
+
+---
+
+### Datos del Negocio:
+- **Tipo de Negocio:** clínica odontológica especializada
+- **Dirección:** Calle 17 # 5A - 34, Barrio Quirinal / Sede San Pedro Plaza, Neiva, Huila
+- **Teléfono:** +57 315 8001822 / (608) 8714301
+- **Correo Electrónico:** clinicaodontosalud_p@hotmail.com
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/odontosalud_p/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

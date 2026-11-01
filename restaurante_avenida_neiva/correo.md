@@ -1,0 +1,84 @@
+# Correo de Prospección Comercial — Restaurante Avenida Neiva
+
+**Destinatario:** Restaurante Avenida Neiva
+**Canal:** Correo Electrónico (restauranteavenidaneiva@hotmail.com)
+**Estado:** Listo para envío
+**Plan:** Plan Completo: $650.000 COP (pago único)
+**Enlace Demo:** https://sais-gallego.github.io/trabajo_so/restaurante_avenida_neiva/
+
+---
+
+### Asunto del Correo:
+```text
+Propuesta de página web para Restaurante Avenida Neiva
+```
+
+### Cuerpo del Correo:
+```text
+Hola, equipo de Restaurante Avenida Neiva:
+
+¿Han considerado tener una página web propia donde sus clientes puedan conocer sus platos tradicionales, ordenar el asado huilense y pedir a domicilio fácilmente?
+
+Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Restaurante Avenida Neiva.
+
+🍲 Una página web pensada para su restaurante tradicional y típico huilense
+La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
+
+Entre sus funcionalidades encontrarán:
+- Cocina tradicional huilense: auténtico asado huilense, viudo de pescado, carnes y sancochos.
+- Menú del día y carta completa: organización visual de platos típicos, combos familiares y bebidas.
+- Pedidos y domicilios a WhatsApp: botón directo para enviar la orden con datos del cliente sin intermediarios.
+- Contacto y ubicación: mapa satelital de la sede en la Cra 5 y horarios de atención.
+- Panel administrativo (CMS): actualizar precios, cambiar el menú diario y fotos sin depender de programadores.
+
+Conozcan cómo podría verse su restaurante tradicional y típico huilense en Internet:
+🌐 https://sais-gallego.github.io/trabajo_so/restaurante_avenida_neiva/
+
+Esta es una demostración inicial preparada para Restaurante Avenida Neiva. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
+
+💻 Propuesta de inversión
+
+Plan Completo: $650.000 COP (pago único)
+Incluye:
+- Diseño y desarrollo de la página web tradicional huilense.
+- Adaptación para celulares, tabletas y computadores.
+- Menú del día y carta completa con buscador y filtros.
+- Botón de pedidos directos a WhatsApp.
+- Panel administrativo (CMS).
+- Configuración y publicación del sitio web.
+
+Servicios de alojamiento y dominio:
+- Hosting H2: $170.000 COP anuales.
+- Dominio .com.co: desde $52.000 COP anuales.
+Estos servicios se contratan directamente con el proveedor de hosting.
+
+Inversión estimada del primer año: $872.000 COP.
+El desarrollo se paga una sola vez. El hosting y el dominio corresponden a renovaciones anuales.
+
+¿Hablamos del proyecto?
+Me gustaría tener la oportunidad de presentarles esta propuesta y conocer qué funcionalidades consideran importantes para su restaurante tradicional y típico huilense.
+
+Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible para resolver sus dudas y ajustar la propuesta sin ningún compromiso.
+
+Gracias por su tiempo.
+
+Atentamente,
+
+SAIS Gallego
+Desarrollo web y soluciones digitales
+Correo: g46113026@gmail.com
+GitHub: https://github.com/Sais-gallego
+
+---
+Si no desea recibir más información sobre este servicio, por favor responda indicándolo y no volveremos a escribirle.
+```
+
+---
+
+### Datos del Negocio:
+- **Tipo de Negocio:** restaurante tradicional y típico huilense
+- **Dirección:** Carrera 5 No. 25 - 32, Neiva, Huila
+- **Teléfono:** +57 315 8937077 / (608) 8750584
+- **Correo Electrónico:** restauranteavenidaneiva@hotmail.com
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/restaurante_avenida_neiva/
+- **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so
