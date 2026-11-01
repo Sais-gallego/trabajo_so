@@ -1,6 +1,6 @@
 ASUNTO: Serendipia Neiva — así quedaría su página web 🔥
 
-Hola, te armé una demostración especial de cómo luciría la página web de Serendipia con la vibra acogedora de tu café en El Altico y tu carta de desayunos. Mírala en este enlace: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/serendipia_neiva/
+Hola, te armé una demostración especial de cómo luciría la página web de Serendipia con la vibra acogedora de tu café en El Altico y tu carta de desayunos. Mírala en este enlace: https://sais-gallego.github.io/trabajo_so/serendipia_neiva/
 
 Tus clientes podrán consultar tus horarios exactos y reservar mesa sin enredos, y tú misma podrás activar el menú del día o cambiar precios de repostería desde tu propio panel.
 

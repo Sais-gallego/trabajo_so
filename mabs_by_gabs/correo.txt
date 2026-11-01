@@ -1,6 +1,6 @@
 ASUNTO: Mabs by Gabs — así quedaría su página web 🔥
 
-Hola, armé una demostración interactiva de cómo quedaría la web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/mabs_by_gabs/
+Hola, armé una demostración interactiva de cómo quedaría la web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo en vivo aquí: https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 Tus clientas podrán explorar tu colección de ropa desde el celular antes de visitarte en Sevilla y agendar citas en segundos. Además, podrás subir prendas nuevas y cambiar precios tú misma en minutos.
 

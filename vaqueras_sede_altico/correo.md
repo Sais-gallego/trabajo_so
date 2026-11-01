@@ -5,7 +5,7 @@
 **Estado:** Pendiente WhatsApp
 **Plan Sugerido:** Plan Básico — $350.000 COP
 **Palabras en el correo:** 132 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/vaqueras_sede_altico/
+**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
 ---
@@ -17,7 +17,7 @@ Vaqueras Sede Altico — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, diseñé una demostración de cómo se vería la página web de Vaqueras Sede Altico con sus cortes, hamburguesas y promociones del restaurante. Mírala en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/vaqueras_sede_altico/
+Hola, diseñé una demostración de cómo se vería la página web de Vaqueras Sede Altico con sus cortes, hamburguesas y promociones del restaurante. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
 Cuando la gente busque dónde comer en Neiva, verán tu carta con fotos provocativas y pedirán directo al WhatsApp. Además, tú mismo podrás editar platos y subir fotos cuando quieras desde tu panel.
 
@@ -37,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *Vaqueras Sede Altico* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/vaqueras_sede_altico/
+👉 https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
 Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -55,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 316 8875987 / 321 9155732
 - **Dirección:** Carrera 14A # 6 - 15, Barrio El Altico, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/vaqueras_sede_altico/
+- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

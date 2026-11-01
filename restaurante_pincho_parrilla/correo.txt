@@ -1,6 +1,6 @@
 ASUNTO: Restaurante Pincho Parrilla — así quedaría su página web 🔥
 
-Hola, preparé una demostración de cómo se vería la web de Pincho Parrilla con tus pinchos, cortes al carbón y la ubicación de El Altico. Échale un ojo en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/restaurante_pincho_parrilla/
+Hola, preparé una demostración de cómo se vería la web de Pincho Parrilla con tus pinchos, cortes al carbón y la ubicación de El Altico. Échale un ojo en vivo aquí: https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
 
 Tus platos aparecerán en Google cuando busquen parrilla en Neiva y tus comensales pedirán a domicilio al WhatsApp con un clic. Además, podrás actualizar precios y combos tú mismo sin intermediarios.
 

@@ -5,7 +5,7 @@
 **Estado:** Pendiente WhatsApp
 **Plan Sugerido:** Plan Básico — $350.000 COP
 **Palabras en el correo:** 124 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
+**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 
 ---
@@ -17,7 +17,7 @@ Smooki BBQ — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración de cómo quedaría la página web de Smooki BBQ con tus costillas ahumadas, alitas y hamburguesas de la Cra 7A. Puedes mirarla en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
+Hola, preparé una demostración de cómo quedaría la página web de Smooki BBQ con tus costillas ahumadas, alitas y hamburguesas de la Cra 7A. Puedes mirarla en vivo aquí: https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 
 Tus clientes verán tu carta con fotos irresistibles y ordenarán a domicilio directamente por WhatsApp con un toque. Además, podrás cambiar precios y platos del día cuando quieras desde tu propio panel.
 
@@ -37,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *Smooki BBQ Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
+👉 https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 
 Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -55,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 316 3476856
 - **Dirección:** Carrera 7A # 10 - 64, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
+- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

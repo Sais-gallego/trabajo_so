@@ -1,6 +1,6 @@
 ASUNTO: Vaqueras Sede Altico — así quedaría su página web 🔥
 
-Hola, diseñé una demostración de cómo se vería la página web de Vaqueras Sede Altico con sus cortes, hamburguesas y promociones del restaurante. Mírala en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/vaqueras_sede_altico/
+Hola, diseñé una demostración de cómo se vería la página web de Vaqueras Sede Altico con sus cortes, hamburguesas y promociones del restaurante. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/vaqueras_sede_altico/
 
 Cuando la gente busque dónde comer en Neiva, verán tu carta con fotos provocativas y pedirán directo al WhatsApp. Además, tú mismo podrás editar platos y subir fotos cuando quieras desde tu panel.
 

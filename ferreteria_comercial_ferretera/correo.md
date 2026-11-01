@@ -5,7 +5,7 @@
 **Estado:** Pendiente WhatsApp
 **Plan Sugerido:** Plan Básico — $350.000 COP
 **Palabras en el correo:** 126 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
+**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
 ---
@@ -17,7 +17,7 @@ Ferretería Comercial Ferretera — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, monté una demostración de cómo luciría la página web de Comercial Ferretera con tus categorías de materiales, herramientas y ubicación en el centro de Neiva. Puedes revisarla aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
+Hola, monté una demostración de cómo luciría la página web de Comercial Ferretera con tus categorías de materiales, herramientas y ubicación en el centro de Neiva. Puedes revisarla aquí: https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
 Tus clientes maestros de obra podrán consultar tu catálogo desde la obra y pedir cotizaciones rápidas por WhatsApp, y tú mismo podrás actualizar productos destacados cuando quieras desde tu panel.
 
@@ -37,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *Ferretería Comercial Ferretera* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
+👉 https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
 Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -55,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 311 2728289 / (608) 8715054
 - **Dirección:** Carrera 3 # 4 - 24, Centro, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
+- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

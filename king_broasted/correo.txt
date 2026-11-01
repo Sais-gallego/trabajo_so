@@ -1,6 +1,6 @@
 ASUNTO: King Broasted — así quedaría su página web 🔥
 
-Hola, preparé una demostración de cómo se vería la web oficial de King Broasted resaltando tus combos de pollo crujiente y tus diferentes sedes en Neiva. Mírala en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
+Hola, preparé una demostración de cómo se vería la web oficial de King Broasted resaltando tus combos de pollo crujiente y tus diferentes sedes en Neiva. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/king_broasted/
 
 Tus clientes en Granjas, Centro o Buganviles encontrarán la sede más cercana en segundos, y tú mismo podrás actualizar fotos de combos y precios desde tu propio panel editor sin pagarle a nadie más.
 

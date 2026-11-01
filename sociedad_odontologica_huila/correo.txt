@@ -1,6 +1,6 @@
 ASUNTO: Sociedad Odontológica del Huila — así quedaría su página web 🔥
 
-Hola, te preparé una demostración de cómo se vería la web de la Sociedad Odontológica del Huila con tus especialidades odontológicas y sede en la Calle 12. Puedes verla en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/sociedad_odontologica_huila/
+Hola, te preparé una demostración de cómo se vería la web de la Sociedad Odontológica del Huila con tus especialidades odontológicas y sede en la Calle 12. Puedes verla en vivo aquí: https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
 
 Tus pacientes podrán solicitar valoración médica desde el celular y encontrar información sobre ortodoncia e implantes. Además, podrán actualizar tratamientos y promociones del mes desde su propio panel.
 

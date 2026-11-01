@@ -1,6 +1,6 @@
 ASUNTO: Smooki BBQ — así quedaría su página web 🔥
 
-Hola, preparé una demostración de cómo quedaría la página web de Smooki BBQ con tus costillas ahumadas, alitas y hamburguesas de la Cra 7A. Puedes mirarla en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
+Hola, preparé una demostración de cómo quedaría la página web de Smooki BBQ con tus costillas ahumadas, alitas y hamburguesas de la Cra 7A. Puedes mirarla en vivo aquí: https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 
 Tus clientes verán tu carta con fotos irresistibles y ordenarán a domicilio directamente por WhatsApp con un toque. Además, podrás cambiar precios y platos del día cuando quieras desde tu propio panel.
 

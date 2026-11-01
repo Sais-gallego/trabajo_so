@@ -1,6 +1,6 @@
 ASUNTO: Club de alisado Large Neiva — así quedaría su página web 🔥
 
-Hola, te preparé una demostración interactiva de cómo se vería la web de Club de alisado Large con tus colores, servicios y fotos de transformaciones reales. Puedes verla en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/club_de_alisado_large/
+Hola, te preparé una demostración interactiva de cómo se vería la web de Club de alisado Large con tus colores, servicios y fotos de transformaciones reales. Puedes verla en vivo aquí: https://sais-gallego.github.io/trabajo_so/club_de_alisado_large/
 
 Con tu propia web, tus clientas podrán agendar su cita de alisado a cualquier hora sin saturar tu chat, y tú misma podrás cambiar precios y subir fotos de tus trabajos desde tu propio panel editor.
 

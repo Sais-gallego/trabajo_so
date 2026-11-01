@@ -1,6 +1,6 @@
 ASUNTO: Ferretería Comercial Ferretera — así quedaría su página web 🔥
 
-Hola, monté una demostración de cómo luciría la página web de Comercial Ferretera con tus categorías de materiales, herramientas y ubicación en el centro de Neiva. Puedes revisarla aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
+Hola, monté una demostración de cómo luciría la página web de Comercial Ferretera con tus categorías de materiales, herramientas y ubicación en el centro de Neiva. Puedes revisarla aquí: https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
 Tus clientes maestros de obra podrán consultar tu catálogo desde la obra y pedir cotizaciones rápidas por WhatsApp, y tú mismo podrás actualizar productos destacados cuando quieras desde tu panel.
 

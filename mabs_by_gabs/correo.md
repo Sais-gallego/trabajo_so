@@ -5,7 +5,7 @@
 **Estado:** Enviado
 **Plan Sugerido:** Plan Completo con CMS — $650.000 COP
 **Palabras en el correo:** 136 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/mabs_by_gabs/
+**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 ---
@@ -17,7 +17,7 @@ Mabs by Gabs — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, armé una demostración interactiva de cómo quedaría la web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/mabs_by_gabs/
+Hola, armé una demostración interactiva de cómo quedaría la web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo en vivo aquí: https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 Tus clientas podrán explorar tu colección de ropa desde el celular antes de visitarte en Sevilla y agendar citas en segundos. Además, podrás subir prendas nuevas y cambiar precios tú misma en minutos.
 
@@ -37,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *Mabs by Gabs* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/mabs_by_gabs/
+👉 https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -55,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 317 3631632
 - **Dirección:** Calle 22 # 5A - 56, Barrio Sevilla, Neiva, Huila
 - **Correo Electrónico:** mabsbygabs@gmail.com
-- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/mabs_by_gabs/
+- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so
