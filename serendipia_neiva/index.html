@@ -4,163 +4,782 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Serendipia Neiva — Sitio Web Oficial | Neiva, Huila</title>
+  <meta name="description" content="Sitio web oficial de Serendipia Neiva en Neiva, Huila. Catálogo en línea, promociones, ubicación y pedidos directos por WhatsApp.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans + Playfair Display -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6.5.1 CDN Vector Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
     :root {
       --primary: #78350f;
-      --primary-dark: #111827;
+      --primary-dark: #0f172a;
       --accent: #d97706;
       --accent-light: #fef3c7;
       --text-main: #1f2937;
       --text-muted: #64748b;
       --bg: #ffffff;
       --bg-alt: #f8fafc;
-      --radius: 16px;
+      --radius: 18px;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Plus Jakarta Sans', sans-serif; color: var(--text-main); background: var(--bg); line-height: 1.6; overflow-x: hidden; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: var(--text-main);
+      background: var(--bg);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
     
-    /* Barra Superior SAIS Gallego */
-    .agency-bar { background: #0f172a; color: #94a3b8; font-size: 13px; padding: 10px 18px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid #1e293b; }
-    .agency-bar a { color: #38bdf8; text-decoration: none; font-weight: 600; }
-    .agency-badge { background: #2563eb; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; }
+    /* Barra Superior SAIS Gallego (Sin fuga de competidores) */
+    .agency-bar {
+      background: #0f172a;
+      color: #94a3b8;
+      font-size: 13px;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .agency-badge {
+      background: var(--primary);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
     
-    /* Barra de Administración CMS (Visible al iniciar sesión) */
-    #admin-bar { display: none; background: #047857; color: #fff; padding: 10px 20px; font-size: 13px; position: sticky; top: 0; z-index: 2000; box-shadow: 0 4px 15px rgba(0,0,0,0.15); }
-    .admin-bar-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-    .admin-actions { display: flex; gap: 8px; }
-    .btn-admin { background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4); color: #fff; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; transition: 0.2s; }
+    /* Barra de Administración CMS (Visible al autenticarse) */
+    #admin-bar {
+      display: none;
+      background: #047857;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 13px;
+      position: sticky;
+      top: 0;
+      z-index: 2000;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    .admin-bar-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .admin-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-admin {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.4);
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      transition: 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
     .btn-admin:hover { background: rgba(255,255,255,0.35); }
     .btn-admin-danger { background: #ef4444; border-color: #dc2626; }
 
     /* Encabezado Principal */
-    header { background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.04); position: sticky; top: 0; z-index: 1000; transition: top 0.3s; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-    .nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; }
-    .logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 800; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 8px; }
-    .nav-links { display: flex; gap: 24px; align-items: center; list-style: none; }
-    .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 600; font-size: 14px; transition: color 0.2s; }
+    header {
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      transition: top 0.3s;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 23px;
+      font-weight: 800;
+      color: var(--primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: opacity 0.2s;
+    }
+    .logo:hover { opacity: 0.9; }
+    .logo i {
+      font-size: 22px;
+      color: var(--primary);
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-main);
+      font-weight: 600;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
     .nav-links a:hover { color: var(--primary); }
     
     .nav-buttons { display: flex; align-items: center; gap: 12px; }
-    .btn-login { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; padding: 8px 16px; border-radius: 50px; font-size: 13px; font-weight: 700; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 6px; }
+    .btn-login {
+      background: #f1f5f9;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
     .btn-login:hover { background: #e2e8f0; color: #0f172a; }
-    .btn-whatsapp-header { background: #25d366; color: #fff; text-decoration: none; padding: 9px 18px; border-radius: 50px; font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 6px; transition: 0.2s; }
+    .btn-whatsapp-header {
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      padding: 9px 18px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.2s;
+      box-shadow: 0 4px 12px rgba(37,211,102,0.25);
+    }
     .btn-whatsapp-header:hover { filter: brightness(1.1); transform: translateY(-1px); }
 
     /* Carrusel Hero */
-    .carousel-section { position: relative; background: #0f172a; overflow: hidden; }
-    .carousel-track { display: flex; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1); width: 300%; }
-    .carousel-slide { width: 100%; min-height: 540px; position: relative; display: flex; align-items: center; background-size: cover; background-position: center; }
-    .carousel-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(15,23,42,0.85) 0%, rgba(15,23,42,0.5) 60%, rgba(15,23,42,0.2) 100%); }
-    .carousel-content { position: relative; z-index: 10; max-width: 680px; padding: 60px 0; color: #fff; }
-    .slide-badge { display: inline-block; background: var(--accent); color: #fff; padding: 5px 14px; border-radius: 50px; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; }
-    .carousel-content h1 { font-family: 'Playfair Display', serif; font-size: 44px; line-height: 1.2; font-weight: 800; margin-bottom: 16px; }
-    .carousel-content p { font-size: 18px; color: #e2e8f0; margin-bottom: 28px; line-height: 1.5; }
-    .carousel-btn { background: var(--primary); color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 50px; font-weight: 700; font-size: 15px; display: inline-block; transition: 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+    .carousel-section {
+      position: relative;
+      background: #0f172a;
+      overflow: hidden;
+    }
+    .carousel-track {
+      display: flex;
+      transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+      width: 300%;
+    }
+    .carousel-slide {
+      width: 100%;
+      min-height: 540px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+    }
+    .carousel-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.55) 60%, rgba(15,23,42,0.25) 100%);
+    }
+    .carousel-content {
+      position: relative;
+      z-index: 10;
+      max-width: 680px;
+      padding: 60px 0;
+      color: #fff;
+    }
+    .slide-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent);
+      color: #fff;
+      padding: 5px 14px;
+      border-radius: 50px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+    .carousel-content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.2;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .carousel-content p {
+      font-size: 17px;
+      color: #e2e8f0;
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
+    .carousel-btn {
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 13px 30px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.2s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
     .carousel-btn:hover { filter: brightness(1.15); transform: translateY(-2px); }
     
-    .carousel-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 20; background: rgba(255,255,255,0.2); backdrop-filter: blur(4px); color: #fff; border: none; width: 48px; height: 48px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; transition: 0.2s; }
-    .carousel-arrow:hover { background: rgba(255,255,255,0.4); }
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 20;
+      background: rgba(255,255,255,0.2);
+      backdrop-filter: blur(4px);
+      color: #fff;
+      border: none;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: 0.2s;
+    }
+    .carousel-arrow:hover { background: rgba(255,255,255,0.45); }
     .arrow-prev { left: 20px; }
     .arrow-next { right: 20px; }
-    .carousel-dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 20; }
-    .dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: 0.3s; }
+    .carousel-dots {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 20;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.4);
+      cursor: pointer;
+      transition: 0.3s;
+    }
     .dot.active { background: #fff; width: 30px; border-radius: 10px; }
 
     /* Secciones Generales */
     section { padding: 75px 0; }
     .section-header { text-align: center; margin-bottom: 45px; }
-    .section-badge { display: inline-block; background: var(--accent-light); color: var(--primary); font-weight: 700; font-size: 12px; padding: 5px 14px; border-radius: 50px; text-transform: uppercase; margin-bottom: 10px; }
-    .section-header h2 { font-family: 'Playfair Display', serif; font-size: 36px; color: var(--primary-dark); font-weight: 800; }
-    .section-header p { color: var(--text-muted); font-size: 16px; margin-top: 8px; max-width: 650px; margin-left: auto; margin-right: auto; }
+    .section-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent-light);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 12px;
+      padding: 5px 14px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+    .section-header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      color: var(--primary-dark);
+      font-weight: 800;
+    }
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-top: 8px;
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     /* SECCIÓN 1: MENÚ DEL DÍA / ESPECIALES */
-    .bg-menu-dia { background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); border-bottom: 1px solid #e2e8f0; }
-    .menu-dia-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; }
-    .menu-dia-card { background: #fff; border-radius: var(--radius); border: 2px solid #fed7aa; box-shadow: 0 10px 25px rgba(234, 88, 12, 0.08); overflow: hidden; display: flex; flex-direction: column; position: relative; transition: transform 0.25s; }
-    .menu-dia-card:hover { transform: translateY(-5px); }
-    .menu-dia-badge { position: absolute; top: 16px; left: 16px; z-index: 5; background: #ea580c; color: #fff; font-size: 12px; font-weight: 800; padding: 5px 12px; border-radius: 30px; text-transform: uppercase; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-    .menu-dia-img { height: 230px; width: 100%; object-fit: cover; display: block; }
-    .menu-dia-body { padding: 25px; flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
-    .menu-dia-body h3 { font-size: 21px; color: var(--primary-dark); font-weight: 800; margin-bottom: 10px; }
-    .menu-dia-body p { color: var(--text-muted); font-size: 14px; margin-bottom: 20px; line-height: 1.5; }
-    .menu-dia-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px dashed #e2e8f0; padding-top: 16px; }
-    .menu-dia-price { font-size: 22px; font-weight: 800; color: #ea580c; }
-    .btn-order-wa { background: #25d366; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 50px; font-weight: 700; font-size: 13px; display: inline-flex; align-items: center; gap: 6px; transition: 0.2s; }
-    .btn-order-wa:hover { filter: brightness(1.1); }
+    .bg-menu-dia {
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .menu-dia-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      gap: 30px;
+    }
+    .menu-dia-card {
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    .menu-dia-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 35px rgba(0,0,0,0.08);
+      border-color: var(--primary);
+    }
+    .menu-dia-badge {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      z-index: 5;
+      background: var(--accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 5px 12px;
+      border-radius: 30px;
+      text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .menu-dia-img-wrap {
+      overflow: hidden;
+      height: 230px;
+      position: relative;
+    }
+    .menu-dia-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+    .menu-dia-card:hover .menu-dia-img {
+      transform: scale(1.06);
+    }
+    .menu-dia-body {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .menu-dia-body h3 {
+      font-size: 20px;
+      color: var(--primary-dark);
+      font-weight: 800;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .menu-dia-body p {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .menu-dia-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px dashed #e2e8f0;
+      padding-top: 16px;
+    }
+    .menu-dia-price {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .btn-order-wa {
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      padding: 9px 18px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: 0.2s;
+    }
+    .btn-order-wa:hover { filter: brightness(1.1); transform: translateY(-1px); }
 
     /* SECCIÓN 2: LA CARTA COMPLETA */
     .bg-carta { background: #ffffff; }
-    .carta-controls { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 35px; }
-    .carta-tabs { display: flex; gap: 8px; flex-wrap: wrap; list-style: none; }
-    .tab-btn { background: #f1f5f9; border: 1px solid #e2e8f0; color: #475569; padding: 9px 18px; border-radius: 50px; font-size: 13px; font-weight: 700; cursor: pointer; transition: 0.2s; }
-    .tab-btn.active, .tab-btn:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
-    .search-input { padding: 10px 18px; border-radius: 50px; border: 1px solid #cbd5e1; font-size: 14px; outline: none; width: 260px; transition: border-color 0.2s; }
-    .search-input:focus { border-color: var(--primary); }
+    .carta-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 35px;
+    }
+    .carta-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+    .tab-btn {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
     
-    .carta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
-    .carta-item { background: #fff; border-radius: var(--radius); border: 1px solid #e2e8f0; overflow: hidden; display: flex; transition: 0.25s; box-shadow: 0 4px 15px rgba(0,0,0,0.02); position: relative; }
-    .carta-item:hover { transform: translateY(-4px); box-shadow: 0 12px 25px rgba(0,0,0,0.06); border-color: #cbd5e1; }
-    .carta-item-img { width: 130px; min-height: 130px; object-fit: cover; flex-shrink: 0; }
-    .carta-item-content { padding: 16px; flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
-    .carta-item-cat { font-size: 11px; text-transform: uppercase; font-weight: 800; color: var(--primary); letter-spacing: 0.5px; }
-    .carta-item-content h4 { font-size: 16px; font-weight: 700; color: #0f172a; margin: 4px 0 6px; line-height: 1.3; }
-    .carta-item-content p { font-size: 12px; color: var(--text-muted); margin-bottom: 10px; line-height: 1.4; }
-    .carta-item-bottom { display: flex; justify-content: space-between; align-items: center; }
-    .carta-price { font-size: 16px; font-weight: 800; color: var(--primary-dark); }
-    .btn-order-mini { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; text-decoration: none; padding: 5px 12px; border-radius: 30px; font-size: 12px; font-weight: 700; transition: 0.2s; }
+    .search-box {
+      position: relative;
+      display: inline-block;
+    }
+    .search-box .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      font-size: 14px;
+    }
+    .search-input {
+      padding: 10px 18px 10px 40px;
+      border-radius: 50px;
+      border: 1px solid #cbd5e1;
+      font-size: 14px;
+      outline: none;
+      width: 270px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--accent-light);
+    }
+    
+    .carta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 24px;
+    }
+    .carta-item {
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px solid #e2e8f0;
+      overflow: hidden;
+      display: flex;
+      transition: 0.25s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+      position: relative;
+    }
+    .carta-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+      border-color: #cbd5e1;
+    }
+    .carta-item-img {
+      width: 130px;
+      min-height: 130px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .carta-item-content {
+      padding: 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .carta-item-cat {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .carta-item-content h4 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 4px 0 6px;
+      line-height: 1.3;
+    }
+    .carta-item-content p {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+    .carta-item-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .carta-price {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+    .btn-order-mini {
+      background: #f0fdf4;
+      color: #16a34a;
+      border: 1px solid #bbf7d0;
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 30px;
+      font-size: 12px;
+      font-weight: 700;
+      transition: 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
     .btn-order-mini:hover { background: #16a34a; color: #fff; }
 
     /* SECCIÓN UBICACIÓN Y MAPA GOOGLE */
     .bg-mapa { background: #f8fafc; border-top: 1px solid #e2e8f0; }
-    .mapa-layout { display: grid; grid-template-columns: 1fr 1.3fr; gap: 35px; align-items: center; }
-    .mapa-card { background: #fff; border-radius: var(--radius); padding: 35px; border: 1px solid #e2e8f0; box-shadow: 0 10px 30px rgba(0,0,0,0.03); }
-    .mapa-card h3 { font-family: 'Playfair Display', serif; font-size: 26px; color: var(--primary-dark); margin-bottom: 16px; }
+    .mapa-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 35px;
+      align-items: center;
+    }
+    @media (max-width: 850px) {
+      .mapa-layout { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+    }
+    .mapa-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 35px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    }
+    .mapa-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      color: var(--primary-dark);
+      margin-bottom: 12px;
+    }
     .info-list { list-style: none; margin: 20px 0 25px; }
-    .info-list li { display: flex; gap: 12px; margin-bottom: 14px; font-size: 14px; color: #334155; }
-    .info-icon { font-size: 18px; color: var(--primary); flex-shrink: 0; }
-    .map-frame-box { border-radius: var(--radius); overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 1px solid #cbd5e1; height: 380px; }
+    .info-list li {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      color: #334155;
+    }
+    .info-icon {
+      font-size: 18px;
+      color: var(--primary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .map-frame-box {
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      border: 1px solid #cbd5e1;
+      height: 380px;
+    }
     .map-frame-box iframe { width: 100%; height: 100%; border: 0; display: block; }
 
+    /* BOTÓN FLOTANTE WHATSAPP CON PULSO */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #25d366;
+      color: #fff;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+      z-index: 999;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.12);
+      box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+    }
+
     /* MODAL DE LOGIN */
-    .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(15,23,42,0.6); backdrop-filter: blur(4px); z-index: 3000; align-items: center; justify-content: center; }
-    .modal-box { background: #fff; border-radius: 20px; width: 90%; max-width: 440px; padding: 35px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); position: relative; animation: popIn 0.3s ease; }
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15,23,42,0.65);
+      backdrop-filter: blur(4px);
+      z-index: 3000;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-box {
+      background: #fff;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 440px;
+      padding: 35px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+      position: relative;
+      animation: popIn 0.3s ease;
+    }
     @keyframes popIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
-    .modal-close { position: absolute; top: 20px; right: 20px; background: none; border: none; font-size: 22px; cursor: pointer; color: #64748b; }
-    .modal-box h3 { font-size: 22px; font-weight: 800; color: #0f172a; margin-bottom: 8px; }
+    .modal-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #64748b;
+    }
+    .modal-box h3 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
     .modal-box p { font-size: 13px; color: #64748b; margin-bottom: 24px; }
     .form-group { margin-bottom: 16px; }
-    .form-group label { display: block; font-size: 13px; font-weight: 700; color: #334155; margin-bottom: 6px; }
-    .form-control { width: 100%; padding: 11px 14px; border: 1px solid #cbd5e1; border-radius: 10px; font-size: 14px; outline: none; }
-    .form-control:focus { border-color: var(--primary); }
-    .btn-submit { width: 100%; background: var(--primary); color: #fff; border: none; padding: 13px; border-radius: 10px; font-weight: 700; font-size: 15px; cursor: pointer; transition: 0.2s; }
-    .btn-submit:hover { filter: brightness(1.1); }
-    .btn-demo-quick { margin-top: 12px; width: 100%; background: #f8fafc; border: 1px dashed #94a3b8; color: #334155; padding: 10px; border-radius: 10px; font-weight: 600; font-size: 13px; cursor: pointer; }
-
-    /* MODAL DE EDICIÓN CMS */
-    .editor-modal-box { max-width: 650px; max-height: 85vh; overflow-y: auto; }
-    
-    /* TOAST DE NOTIFICACIÓN */
-    .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(100px); background: #065f46; color: #fff; padding: 12px 24px; border-radius: 50px; font-weight: 700; font-size: 14px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); z-index: 4000; transition: transform 0.3s ease, opacity 0.3s ease; opacity: 0; pointer-events: none; }
-    .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
-
-    /* Botón Flotante WhatsApp */
-    .whatsapp-float { position: fixed; bottom: 25px; right: 25px; background: #25d366; color: #fff; width: 62px; height: 62px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 8px 25px rgba(37,211,102,0.45); text-decoration: none; z-index: 1000; transition: transform 0.2s; }
-    .whatsapp-float:hover { transform: scale(1.1); }
-
-    /* Footer */
-    footer { background: #0f172a; color: #94a3b8; padding: 40px 0; font-size: 14px; text-align: center; border-top: 1px solid #1e293b; }
-    footer a { color: #38bdf8; text-decoration: none; }
-
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .mapa-layout { grid-template-columns: 1fr; }
-      .carousel-content h1 { font-size: 32px; }
-      .carousel-slide { min-height: 440px; }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 6px;
     }
+    .form-control {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      font-size: 14px;
+      outline: none;
+    }
+    .form-control:focus { border-color: var(--primary); }
+    .btn-submit {
+      width: 100%;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 13px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .btn-submit:hover { filter: brightness(1.1); }
+    .btn-demo-quick {
+      width: 100%;
+      background: #eff6ff;
+      color: #2563eb;
+      border: 1px solid #bfdbfe;
+      padding: 11px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .btn-demo-quick:hover { background: #dbeafe; }
+    .editor-modal-box { max-width: 520px; }
+
+    /* TOAST NOTIFICACIÓN */
+    .toast {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #0f172a;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      z-index: 4000;
+      opacity: 0;
+      transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    footer {
+      background: #090d16;
+      border-top: 1px solid #1e293b;
+      padding: 40px 0;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+    footer a { color: #38bdf8; text-decoration: none; }
   </style>
 </head>
 <body>
@@ -168,43 +787,53 @@
   <!-- Barra Superior SAIS Gallego -->
   <div class="agency-bar">
     <div>
-      <span class="agency-badge">SAIS Gallego CMS</span>
-      <span>Propuesta Oficial de Sitio Web para: <strong>Serendipia Neiva</strong> en Neiva, Huila</span>
+      <span class="agency-badge"><i class="fa-solid fa-code"></i> SAIS Gallego CMS</span>
+      <span>Demostración de Sitio Web para: <strong>Serendipia Neiva</strong> en Neiva, Huila</span>
     </div>
     <div>
-      <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">🔒 Demostración Exclusiva · Acceso Privado</span>
+      <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">
+        <i class="fa-solid fa-shield-halved"></i> Demostración Exclusiva · Acceso Privado
+      </span>
     </div>
   </div>
 
-  <!-- Barra Superior de Administración (Modo Editor) -->
+  <!-- Barra de Administración CMS (Visible al autenticarse) -->
   <div id="admin-bar">
     <div class="admin-bar-content">
       <div>
-        <strong>🛠️ Modo Administrador Activo:</strong> Puedes modificar la Carta, el Menú del Día y los datos del negocio en tiempo real.
+        <i class="fa-solid fa-sliders"></i> Modo Administrador Activo · <strong>Editor en Tiempo Real</strong>
       </div>
       <div class="admin-actions">
-        <button class="btn-admin" onclick="openBusinessInfoModal()">⚙️ Editar Datos</button>
-        <button class="btn-admin" onclick="openAddItemModal('menu')">+ Añadir al Menú del Día</button>
-        <button class="btn-admin" onclick="openAddItemModal('carta')">+ Añadir a la Carta</button>
-        <button class="btn-admin btn-admin-danger" onclick="resetToDefaults()">🔄 Restaurar Originales</button>
-        <button class="btn-admin" onclick="logoutAdmin()">🚪 Salir del Editor</button>
+        <button class="btn-admin" onclick="openAddModal('menuDia')"><i class="fa-solid fa-plus"></i> Añadir a Especiales</button>
+        <button class="btn-admin" onclick="openAddModal('carta')"><i class="fa-solid fa-plus"></i> Añadir a Carta</button>
+        <button class="btn-admin" onclick="openBizModal()"><i class="fa-solid fa-pen-to-square"></i> Editar Datos Negocio</button>
+        <button class="btn-admin" onclick="resetToDefaults()"><i class="fa-solid fa-rotate-left"></i> Restaurar</button>
+        <button class="btn-admin btn-admin-danger" onclick="logoutAdmin()"><i class="fa-solid fa-right-from-bracket"></i> Salir</button>
       </div>
     </div>
   </div>
 
-  <!-- Encabezado / Navegación -->
+  <!-- Encabezado Principal -->
   <header>
     <div class="container nav">
-      <a href="#" class="logo" id="header-biz-name">Serendipia Neiva ✨</a>
+      <a href="#inicio" class="logo" id="header-biz-name">
+        <i class="fa-solid fa-mug-saucer"></i> Serendipia Neiva
+      </a>
+      
       <ul class="nav-links">
         <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#menu-del-dia">Menú del Día</a></li>
-        <li><a href="#la-carta">La Carta</a></li>
-        <li><a href="#ubicacion">Ubicación & Mapa</a></li>
+        <li><a href="#menu-del-dia">Especiales</a></li>
+        <li><a href="#la-carta">Carta Completa</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
       </ul>
+
       <div class="nav-buttons">
-        <button class="btn-login" id="btn-login-trigger" onclick="openLoginModal()">🔐 Iniciar Sesión</button>
-        <a href="https://wa.me/573043318937?text=Hola,%20los%20contacto%20desde%20su%20sitio%20web" target="_blank" class="btn-whatsapp-header" id="btn-wa-header">💬 WhatsApp</a>
+        <button class="btn-login" onclick="openLoginModal()">
+          <i class="fa-solid fa-lock"></i> Acceso CMS
+        </button>
+        <a href="https://wa.me/573043318937?text=Hola,%20los%20contacto%20desde%20su%20sitio%20web" target="_blank" class="btn-whatsapp-header" id="btn-wa-header">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
       </div>
     </div>
   </header>
@@ -214,8 +843,8 @@
     <div class="carousel-track" id="carousel-track">
       <!-- Los slides se inyectan dinámicamente -->
     </div>
-    <button class="carousel-arrow arrow-prev" onclick="prevSlide()">❮</button>
-    <button class="carousel-arrow arrow-next" onclick="nextSlide()">❯</button>
+    <button class="carousel-arrow arrow-prev" onclick="prevSlide()"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="carousel-arrow arrow-next" onclick="nextSlide()"><i class="fa-solid fa-chevron-right"></i></button>
     <div class="carousel-dots" id="carousel-dots"></div>
   </section>
 
@@ -223,7 +852,7 @@
   <section class="bg-menu-dia" id="menu-del-dia">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">Recomendados & Promociones</span>
+        <span class="section-badge"><i class="fa-solid fa-star"></i> Recomendados & Promociones</span>
         <h2>Especiales & Menú del Día</h2>
         <p>Las mejores opciones seleccionadas para hoy. Pide de forma rápida y directa a nuestro WhatsApp sin intermediarios.</p>
       </div>
@@ -237,7 +866,7 @@
   <section class="bg-carta" id="la-carta">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">Variedad & Calidad</span>
+        <span class="section-badge"><i class="fa-solid fa-layer-group"></i> Variedad & Calidad</span>
         <h2>Nuestra Carta Completa</h2>
         <p>Explora cada una de nuestras categorías, conoce los detalles e ingredientes y ordena lo que más se te antoje.</p>
       </div>
@@ -246,7 +875,10 @@
         <ul class="carta-tabs" id="carta-tabs">
           <!-- Pestañas de categorías inyectadas por JS -->
         </ul>
-        <input type="text" class="search-input" id="search-input" placeholder="🔍 Buscar en la carta..." onkeyup="filterCarta()">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" class="search-input" id="search-input" placeholder="Buscar plato o producto..." onkeyup="filterCarta()">
+        </div>
       </div>
 
       <div class="carta-grid" id="carta-container">
@@ -259,7 +891,7 @@
   <section class="bg-mapa" id="ubicacion">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">Punto Físico en Neiva</span>
+        <span class="section-badge"><i class="fa-solid fa-location-dot"></i> Punto Físico en Neiva</span>
         <h2>Encuéntranos Fácilmente</h2>
         <p>Estamos ubicados en una zona estratégica de Neiva para brindarte la mejor atención presencial y despachos a domicilio.</p>
       </div>
@@ -270,45 +902,49 @@
           <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">Ven a vivir la experiencia o comunícate con nosotros para cualquier pedido o cotización.</p>
           <ul class="info-list">
             <li>
-              <span class="info-icon">📍</span>
+              <span class="info-icon"><i class="fa-solid fa-location-dot"></i></span>
               <div>
                 <strong>Dirección:</strong><br>
                 <span id="info-biz-address">Calle 6 # 10 - 91, Barrio El Altico, Neiva, Huila</span>
               </div>
             </li>
             <li>
-              <span class="info-icon">🕒</span>
+              <span class="info-icon"><i class="fa-solid fa-clock"></i></span>
               <div>
                 <strong>Horario de Atención:</strong><br>
                 <span>Lunes a Sábado: 8:00 AM – 9:00 PM<br>Domingos y Festivos: 10:00 AM – 8:00 PM</span>
               </div>
             </li>
             <li>
-              <span class="info-icon">📞</span>
+              <span class="info-icon"><i class="fa-solid fa-phone"></i></span>
               <div>
                 <strong>Línea de Pedidos / WhatsApp:</strong><br>
                 <span id="info-biz-phone">304 3318937</span>
               </div>
             </li>
           </ul>
-          <a href="https://maps.google.com/?q=Calle%206%20%23%2010-91%2C%20El%20Altico%2C%20Neiva%2C%20Huila%2C%20Colombia" target="_blank" class="carousel-btn" style="width: 100%; text-align: center; padding: 12px; font-size: 14px;">Abrir en Google Maps Móvil 🗺️</a>
+          <a href="https://maps.google.com/?q=Calle+6+%23+10-91%2C+El+Altico%2C+Neiva%2C+Huila%2C+Colombia" target="_blank" class="carousel-btn" style="width: 100%; justify-content: center; padding: 12px; font-size: 14px;">
+            <i class="fa-solid fa-map-location-dot"></i> Abrir en Google Maps Móvil
+          </a>
         </div>
 
         <div class="map-frame-box">
-          <iframe id="map-iframe" src="https://maps.google.com/maps?q=Calle%206%20%23%2010-91%2C%20El%20Altico%2C%20Neiva%2C%20Huila%2C%20Colombia&t=&z=16&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+          <iframe id="map-iframe" src="https://maps.google.com/maps?q=Calle+6+%23+10-91%2C+El+Altico%2C+Neiva%2C+Huila%2C+Colombia&t=&z=16&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Botón Flotante WhatsApp -->
-  <a href="https://wa.me/573043318937?text=Hola,%20los%20contacto%20desde%20su%20p%C3%A1gina%20web" class="whatsapp-float" target="_blank" id="wa-float" title="Pedir por WhatsApp">💬</a>
+  <a href="https://wa.me/573043318937?text=Hola,%20los%20contacto%20desde%20su%20p%C3%A1gina%20web" class="whatsapp-float" target="_blank" id="wa-float" title="Pedir por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
   <!-- MODAL INICIAR SESIÓN -->
   <div class="modal-backdrop" id="login-modal">
     <div class="modal-box">
-      <button class="modal-close" onclick="closeLoginModal()">✕</button>
-      <h3>Acceso Administrador</h3>
+      <button class="modal-close" onclick="closeLoginModal()"><i class="fa-solid fa-xmark"></i></button>
+      <h3><i class="fa-solid fa-lock"></i> Acceso Administrador</h3>
       <p>Inicia sesión para ingresar al panel de edición y modificar la Carta, el Menú y los precios en vivo.</p>
       
       <form onsubmit="handleLogin(event)">
@@ -320,17 +956,17 @@
           <label>Contraseña:</label>
           <input type="password" id="login-pass" class="form-control" placeholder="1234" value="1234" required>
         </div>
-        <button type="submit" class="btn-submit">Ingresar al Editor CMS</button>
+        <button type="submit" class="btn-submit"><i class="fa-solid fa-right-to-bracket"></i> Ingresar al Editor CMS</button>
       </form>
-      <button class="btn-demo-quick" onclick="quickLoginDemo()">⚡ Ingreso Rápido Demo (1 Clic)</button>
+      <button class="btn-demo-quick" onclick="quickLoginDemo()"><i class="fa-solid fa-bolt"></i> Ingreso Rápido Demo (1 Clic)</button>
     </div>
   </div>
 
   <!-- MODAL EDITAR DATOS DEL NEGOCIO -->
   <div class="modal-backdrop" id="biz-modal">
     <div class="modal-box editor-modal-box">
-      <button class="modal-close" onclick="closeBizModal()">✕</button>
-      <h3>Editar Datos del Negocio</h3>
+      <button class="modal-close" onclick="closeBizModal()"><i class="fa-solid fa-xmark"></i></button>
+      <h3><i class="fa-solid fa-pen-to-square"></i> Editar Datos del Negocio</h3>
       <p>Modifica el nombre, número de WhatsApp y dirección física.</p>
       <div class="form-group">
         <label>Nombre del Negocio:</label>
@@ -348,15 +984,15 @@
         <label>Dirección Física en Neiva:</label>
         <input type="text" id="edit-biz-address" class="form-control">
       </div>
-      <button class="btn-submit" onclick="saveBusinessInfo()">Guardar Información</button>
+      <button class="btn-submit" onclick="saveBusinessInfo()"><i class="fa-solid fa-floppy-disk"></i> Guardar Información</button>
     </div>
   </div>
 
   <!-- MODAL AÑADIR/EDITAR ÍTEM -->
   <div class="modal-backdrop" id="item-modal">
     <div class="modal-box editor-modal-box">
-      <button class="modal-close" onclick="closeItemModal()">✕</button>
-      <h3 id="item-modal-title">Añadir Ítem</h3>
+      <button class="modal-close" onclick="closeItemModal()"><i class="fa-solid fa-xmark"></i></button>
+      <h3 id="item-modal-title"><i class="fa-solid fa-plus"></i> Añadir Ítem</h3>
       <p id="item-modal-desc">Completa los campos para publicar o editar en tu página web.</p>
       
       <input type="hidden" id="item-target-type">
@@ -386,27 +1022,30 @@
         <label>URL de la Imagen (Unsplash u otra):</label>
         <input type="text" id="item-img" class="form-control" placeholder="https://images.unsplash.com/..." required>
       </div>
-      <button class="btn-submit" onclick="saveItem()">Guardar Ítem</button>
+      <button class="btn-submit" onclick="saveItem()"><i class="fa-solid fa-floppy-disk"></i> Guardar Ítem</button>
     </div>
   </div>
 
   <!-- TOAST NOTIFICACIÓN -->
-  <div class="toast" id="toast">✅ ¡Cambios guardados con éxito en tu página web!</div>
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check" style="color: #4ade80;"></i>
+    <span id="toast-text">¡Cambios guardados con éxito en tu página web!</span>
+  </div>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>© 2026 Serendipia Neiva. Todos los derechos reservados.</p>
-      <p style="margin-top: 6px;">Propuesta y CMS desarrollado por <a href="https://github.com/sais-gallego" target="_blank">SAIS Gallego</a> · g46113026@gmail.com · Neiva, Huila</p>
+      <p>© 2026 Serendipia Neiva. Todos los derechos reservados · Neiva, Huila.</p>
+      <p style="margin-top: 6px;">Propuesta y CMS desarrollado por <a href="https://github.com/sais-gallego" target="_blank">SAIS Gallego</a> · g46113026@gmail.com</p>
     </div>
   </footer>
 
   <!-- Lógica JavaScript Dinámica y CMS -->
   <script>
-    const INITIAL_BIZ = {"id": "serendipia_neiva", "name": "Serendipia Neiva", "tagline": "Caf\u00e9 de Especialidad, Brunch y Reposter\u00eda de Autor en El Altico", "phone": "3043318937", "phone_display": "304 3318937", "address": "Calle 6 # 10 - 91, Barrio El Altico, Neiva, Huila", "map_query": "Calle 6 # 10-91, El Altico, Neiva, Huila, Colombia", "primary_color": "#78350f"};
-    const INITIAL_CAROUSEL = [{"badge": "El Rinc\u00f3n M\u00e1gico de Neiva", "title": "Desayunos, Brunch y Caf\u00e9 en un Ambiente \u00danico", "subtitle": "Un espacio dise\u00f1ado para conectar, disfrutar de buena lectura y compartir en familia.", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80"}, {"badge": "Granos del Huila", "title": "Caf\u00e9 de Especialidad Filtrado y Espresso", "subtitle": "Selecci\u00f3n de micro-lotes de cafeteros huilenses preparados con m\u00e9todos artesanales.", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80"}, {"badge": "Horneado con Amor", "title": "Reposter\u00eda Artesanal y Tortas del D\u00eda", "subtitle": "Waffles dorados, tostadas francesas y cheesecake de frutos rojos.", "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1400&q=80"}];
-    const INITIAL_MENU_DIA = [{"badge": "Brunch Recomendado de Hoy", "title": "Waffle Serendipia con Frutas Frescas y Miel de Maple", "desc": "Masa crocante dorada con fresas, ar\u00e1ndanos, helado artesanal de vainilla y caf\u00e9 americano del Huila.", "price": "$24.000 COP", "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"}, {"badge": "Combo Tarde Dulce", "title": "Capuccino de la Casa + Porci\u00f3n de Red Velvet", "desc": "Espresso doble con leche texturizada arte latte y torta suave rellena de crema de queso.", "price": "$18.500 COP", "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"}];
-    const INITIAL_CARTA = [{"cat": "Brunch & Desayunos", "title": "Tostada Francesa Brioche con Frutos Rojos", "desc": "Pan brioche remojado en mezcla de vainilla y canela con coulis casero de moras.", "price": "$22.000 COP", "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=500&q=80"}, {"cat": "Brunch & Desayunos", "title": "Huevos Benedictinos sobre Pan R\u00fastico", "desc": "Huevos pochados con jam\u00f3n serrano y salsa holandesa suave hecha al momento.", "price": "$26.000 COP", "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=500&q=80"}, {"cat": "Caf\u00e9s Especiales", "title": "Caf\u00e9 Filtrado V60 Origen Pitalito", "desc": "Notas florales y c\u00edtricas que resaltan la dulzura natural del caf\u00e9 huilense.", "price": "$9.000 COP", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80"}, {"cat": "Caf\u00e9s Especiales", "title": "Mocaccino con Chocolate de San Agust\u00edn", "desc": "Fusi\u00f3n de chocolate amargo artesanal, espresso y crema batida.", "price": "$11.000 COP", "img": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80"}, {"cat": "Pasteler\u00eda", "title": "Torta de Zanahoria y Nueces Caramelizadas", "desc": "Esponjosa y especiada con suave frosting de queso crema.", "price": "$13.000 COP", "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=500&q=80"}, {"cat": "Bebidas Fr\u00edas", "title": "Soda Saborizada de Maracuy\u00e1 & Albahaca", "desc": "Bebida gasificada artesanal con pulpa natural, hielo y hojas de albahaca fresca.", "price": "$10.500 COP", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80"}];
+    const INITIAL_BIZ = {"id": "serendipia_neiva", "name": "Serendipia Neiva", "tagline": "Café de Especialidad, Brunch y Repostería de Autor en El Altico", "phone": "3043318937", "phone_display": "304 3318937", "address": "Calle 6 # 10 - 91, Barrio El Altico, Neiva, Huila", "map_query": "Calle 6 # 10-91, El Altico, Neiva, Huila, Colombia", "primary_color": "#78350f", "icon_class": "fa-solid fa-mug-saucer"};
+    const INITIAL_CAROUSEL = [{"badge": "El Rincón Mágico de Neiva", "title": "Desayunos, Brunch y Café en un Ambiente Único", "subtitle": "Un espacio diseñado para conectar, disfrutar de buena lectura y compartir en familia.", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80"}, {"badge": "Granos del Huila", "title": "Café de Especialidad Filtrado y Espresso", "subtitle": "Selección de micro-lotes de cafeteros huilenses preparados con métodos artesanales.", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80"}, {"badge": "Horneado con Amor", "title": "Repostería Artesanal y Tortas del Día", "subtitle": "Waffles dorados, tostadas francesas y cheesecake de frutos rojos.", "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1400&q=80"}];
+    const INITIAL_MENU_DIA = [{"badge": "Brunch Recomendado de Hoy", "title": "Waffle Serendipia con Frutas Frescas y Miel de Maple", "desc": "Masa crocante dorada con fresas, arándanos, helado artesanal de vainilla y café americano del Huila.", "price": "$24.000 COP", "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"}, {"badge": "Combo Tarde Dulce", "title": "Capuccino de la Casa + Porción de Red Velvet", "desc": "Espresso doble con leche texturizada arte latte y torta suave rellena de crema de queso.", "price": "$18.500 COP", "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"}];
+    const INITIAL_CARTA = [{"cat": "Brunch & Desayunos", "title": "Tostada Francesa Brioche con Frutos Rojos", "desc": "Pan brioche remojado en mezcla de vainilla y canela con coulis casero de moras.", "price": "$22.000 COP", "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=500&q=80"}, {"cat": "Brunch & Desayunos", "title": "Huevos Benedictinos sobre Pan Rústico", "desc": "Huevos pochados con jamón serrano y salsa holandesa suave hecha al momento.", "price": "$26.000 COP", "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=500&q=80"}, {"cat": "Cafés Especiales", "title": "Café Filtrado V60 Origen Pitalito", "desc": "Notas florales y cítricas que resaltan la dulzura natural del café huilense.", "price": "$9.000 COP", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80"}, {"cat": "Cafés Especiales", "title": "Mocaccino con Chocolate de San Agustín", "desc": "Fusión de chocolate amargo artesanal, espresso y crema batida.", "price": "$11.000 COP", "img": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80"}, {"cat": "Pastelería", "title": "Torta de Zanahoria y Nueces Caramelizadas", "desc": "Esponjosa y especiada con suave frosting de queso crema.", "price": "$13.000 COP", "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=500&q=80"}, {"cat": "Bebidas Frías", "title": "Soda Saborizada de Maracuyá & Albahaca", "desc": "Bebida gasificada artesanal con pulpa natural, hielo y hojas de albahaca fresca.", "price": "$10.500 COP", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80"}];
     const STORAGE_KEY = "sais_cms_" + INITIAL_BIZ.id;
 
     let appData = {
@@ -435,7 +1074,7 @@
 
     function saveToStorage() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(appData));
-      showToast("✅ ¡Cambios guardados con éxito en tu página web!");
+      showToast("¡Cambios guardados con éxito en tu página web!");
       renderAll();
     }
 
@@ -449,13 +1088,13 @@
           carta: [ ...INITIAL_CARTA ]
         };
         renderAll();
-        showToast("🔄 Datos restaurados al estado original.");
+        showToast("Datos restaurados al estado original.");
       }
     }
 
     function showToast(msg) {
       const t = document.getElementById("toast");
-      t.innerText = msg;
+      document.getElementById("toast-text").innerText = msg;
       t.classList.add("show");
       setTimeout(() => t.classList.remove("show"), 3500);
     }
@@ -471,7 +1110,8 @@
     }
 
     function renderBusinessInfo() {
-      document.getElementById("header-biz-name").innerText = appData.biz.name + " ✨";
+      const icon = appData.biz.icon_class || "fa-solid fa-mug-saucer";
+      document.getElementById("header-biz-name").innerHTML = `<i class="${icon}"></i> ${appData.biz.name}`;
       document.getElementById("info-biz-title").innerText = appData.biz.name;
       document.getElementById("info-biz-address").innerText = appData.biz.address;
       document.getElementById("info-biz-phone").innerText = appData.biz.phone_display;
@@ -496,266 +1136,322 @@
           <div class="carousel-overlay"></div>
           <div class="container">
             <div class="carousel-content">
-              <span class="slide-badge">${slide.badge}</span>
+              <span class="slide-badge"><i class="fa-solid fa-star"></i> ${slide.badge}</span>
               <h1>${slide.title}</h1>
               <p>${slide.subtitle}</p>
-              <a href="#menu-del-dia" class="carousel-btn">Ver Menú & Carta de Hoy</a>
+              <a href="#menu-del-dia" class="carousel-btn"><i class="fa-solid fa-circle-arrow-down"></i> Ver Menú & Ofertas de Hoy</a>
             </div>
           </div>
         `;
         track.appendChild(div);
 
         const dot = document.createElement("div");
-        dot.className = "dot" + (idx === currentSlide ? " active" : "");
+        dot.className = "dot" + (idx === 0 ? " active" : "");
         dot.onclick = () => goToSlide(idx);
         dotsContainer.appendChild(dot);
       });
+
+      updateCarouselPosition();
     }
 
     function startCarousel() {
       clearInterval(carouselInterval);
-      carouselInterval = setInterval(() => nextSlide(), 5000);
+      carouselInterval = setInterval(nextSlide, 5500);
     }
 
-    function goToSlide(n) {
-      currentSlide = (n + appData.carousel.length) % appData.carousel.length;
-      document.getElementById("carousel-track").style.transform = `translateX(-${currentSlide * (100 / appData.carousel.length)}%)`;
-      document.querySelectorAll(".dot").forEach((d, i) => {
-        d.classList.toggle("active", i === currentSlide);
-      });
+    function updateCarouselPosition() {
+      const track = document.getElementById("carousel-track");
+      track.style.transform = `translateX(-${currentSlide * (100 / appData.carousel.length)}%)`;
+      track.style.width = `${appData.carousel.length * 100}%`;
+      
+      const dots = document.querySelectorAll(".carousel-dots .dot");
+      dots.forEach((d, i) => d.classList.toggle("active", i === currentSlide));
     }
 
-    function nextSlide() { goToSlide(currentSlide + 1); }
-    function prevSlide() { goToSlide(currentSlide - 1); }
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % appData.carousel.length;
+      updateCarouselPosition();
+    }
 
-    // MENÚ DEL DÍA
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + appData.carousel.length) % appData.carousel.length;
+      updateCarouselPosition();
+    }
+
+    function goToSlide(idx) {
+      currentSlide = idx;
+      updateCarouselPosition();
+      startCarousel();
+    }
+
+    // SECCIÓN 1: MENÚ DEL DÍA
     function renderMenuDia() {
       const container = document.getElementById("menu-dia-container");
       container.innerHTML = "";
 
       appData.menuDia.forEach((item, idx) => {
-        const waMsg = encodeURIComponent(`Hola! Quiero ordenar el especial "${item.title}" (${item.price}) de su Menú del Día.`);
         const card = document.createElement("div");
         card.className = "menu-dia-card";
+        
+        let editButtons = "";
+        if (isAdmin) {
+          editButtons = `
+            <div style="position: absolute; top: 14px; right: 14px; z-index: 10; display: flex; gap: 6px;">
+              <button onclick="openEditModal('menuDia', ${idx})" class="btn-admin" style="padding: 4px 8px; font-size: 11px;"><i class="fa-solid fa-pen"></i></button>
+              <button onclick="deleteItem('menuDia', ${idx})" class="btn-admin btn-admin-danger" style="padding: 4px 8px; font-size: 11px;"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          `;
+        }
+
+        const waText = encodeURIComponent(`Hola ${appData.biz.name}, quiero ordenar: ${item.title} (${item.price})`);
+        const waLink = `https://wa.me/57${appData.biz.phone}?text=${waText}`;
+
         card.innerHTML = `
-          <span class="menu-dia-badge">${item.badge}</span>
-          <img src="${item.img}" alt="${item.title}" class="menu-dia-img">
+          ${editButtons}
+          <span class="menu-dia-badge"><i class="fa-solid fa-tag"></i> ${item.badge}</span>
+          <div class="menu-dia-img-wrap">
+            <img src="${item.img}" class="menu-dia-img" alt="${item.title}" loading="lazy">
+          </div>
           <div class="menu-dia-body">
             <div>
               <h3>${item.title}</h3>
               <p>${item.desc}</p>
             </div>
             <div class="menu-dia-footer">
-              <div class="menu-dia-price">${item.price}</div>
-              <a href="https://wa.me/57${appData.biz.phone}?text=${waMsg}" target="_blank" class="btn-order-wa">Pedir al WhatsApp</a>
+              <span class="menu-dia-price">${item.price}</span>
+              <a href="${waLink}" target="_blank" class="btn-order-wa">
+                <i class="fa-brands fa-whatsapp"></i> Pedir por WhatsApp
+              </a>
             </div>
-            ${isAdmin ? `
-            <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid #fed7aa; display: flex; gap: 8px;">
-              <button class="btn-admin" style="background:#0284c7; flex:1;" onclick="openEditItemModal('menu', ${idx})">✏️ Editar</button>
-              <button class="btn-admin btn-admin-danger" style="flex:1;" onclick="deleteItem('menu', ${idx})">🗑️ Borrar</button>
-            </div>` : ''}
           </div>
         `;
         container.appendChild(card);
       });
     }
 
-    // LA CARTA
+    // SECCIÓN 2: LA CARTA COMPLETA
     function renderCartaTabs() {
       const tabsContainer = document.getElementById("carta-tabs");
-      const cats = ["Todos", ...new Set(appData.carta.map(i => i.cat))];
       tabsContainer.innerHTML = "";
 
-      cats.forEach(c => {
+      const categories = ["Todos", ...new Set(appData.carta.map(i => i.cat))];
+      
+      categories.forEach(cat => {
         const li = document.createElement("li");
-        li.innerHTML = `<button class="tab-btn ${c === currentCategory ? 'active' : ''}" onclick="setCategory('${c}')">${c}</button>`;
+        const btn = document.createElement("button");
+        btn.className = "tab-btn" + (cat === currentCategory ? " active" : "");
+        btn.innerText = cat;
+        btn.onclick = () => {
+          currentCategory = cat;
+          document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          filterCarta();
+        };
+        li.appendChild(btn);
         tabsContainer.appendChild(li);
       });
     }
 
-    function setCategory(cat) {
-      currentCategory = cat;
-      renderCartaTabs();
-      filterCarta();
-    }
-
     function filterCarta() {
-      const query = document.getElementById("search-input").value.toLowerCase();
+      const search = document.getElementById("search-input").value.toLowerCase();
       const container = document.getElementById("carta-container");
       container.innerHTML = "";
 
       const filtered = appData.carta.filter(item => {
-        const matchCat = currentCategory === "Todos" || item.cat === currentCategory;
-        const matchQuery = item.title.toLowerCase().includes(query) || item.desc.toLowerCase().includes(query);
-        return matchCat && matchQuery;
+        const matchCat = (currentCategory === "Todos" || item.cat === currentCategory);
+        const matchSearch = item.title.toLowerCase().includes(search) || item.desc.toLowerCase().includes(search);
+        return matchCat && matchSearch;
       });
 
       if (filtered.length === 0) {
-        container.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: #94a3b8; padding: 40px;">No se encontraron platos o productos en esta categoría.</p>`;
+        container.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px 0;">No se encontraron platos o productos coincidentes.</p>`;
         return;
       }
 
-      filtered.forEach((item, originalIdx) => {
-        const waMsg = encodeURIComponent(`Hola! Quiero ordenar "${item.title}" (${item.price}) de la carta.`);
+      filtered.forEach((item, originalIndex) => {
+        const idx = appData.carta.indexOf(item);
         const card = document.createElement("div");
         card.className = "carta-item";
+
+        let editButtons = "";
+        if (isAdmin) {
+          editButtons = `
+            <div style="position: absolute; top: 8px; right: 8px; z-index: 10; display: flex; gap: 4px;">
+              <button onclick="openEditModal('carta', ${idx})" class="btn-admin" style="padding: 3px 6px; font-size: 10px;"><i class="fa-solid fa-pen"></i></button>
+              <button onclick="deleteItem('carta', ${idx})" class="btn-admin btn-admin-danger" style="padding: 3px 6px; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          `;
+        }
+
+        const waText = encodeURIComponent(`Hola ${appData.biz.name}, deseo ordenar de la carta: ${item.title} (${item.price})`);
+        const waLink = `https://wa.me/57${appData.biz.phone}?text=${waText}`;
+
         card.innerHTML = `
-          <img src="${item.img}" alt="${item.title}" class="carta-item-img">
+          ${editButtons}
+          <img src="${item.img}" class="carta-item-img" alt="${item.title}" loading="lazy">
           <div class="carta-item-content">
             <div>
-              <span class="carta-item-cat">${item.cat}</span>
+              <span class="carta-item-cat"><i class="fa-solid fa-bookmark"></i> ${item.cat}</span>
               <h4>${item.title}</h4>
               <p>${item.desc}</p>
             </div>
             <div class="carta-item-bottom">
               <span class="carta-price">${item.price}</span>
-              <a href="https://wa.me/57${appData.biz.phone}?text=${waMsg}" target="_blank" class="btn-order-mini">Pedir</a>
+              <a href="${waLink}" target="_blank" class="btn-order-mini">
+                <i class="fa-brands fa-whatsapp"></i> Ordenar
+              </a>
             </div>
-            ${isAdmin ? `
-            <div style="margin-top: 10px; display: flex; gap: 6px;">
-              <button class="btn-admin" style="background:#0284c7; padding: 3px 8px; font-size: 11px;" onclick="openEditItemModal('carta', ${originalIdx})">✏️</button>
-              <button class="btn-admin btn-admin-danger" style="padding: 3px 8px; font-size: 11px;" onclick="deleteItem('carta', ${originalIdx})">🗑️</button>
-            </div>` : ''}
           </div>
         `;
         container.appendChild(card);
       });
     }
 
-    // MODALES & CMS LOGIN
-    function openLoginModal() { document.getElementById("login-modal").style.display = "flex"; }
-    function closeLoginModal() { document.getElementById("login-modal").style.display = "none"; }
+    // GESTIÓN CMS Y MODALES
+    function updateAdminBar() {
+      document.getElementById("admin-bar").style.display = isAdmin ? "block" : "none";
+    }
+
+    function openLoginModal() {
+      document.getElementById("login-modal").style.display = "flex";
+    }
+    function closeLoginModal() {
+      document.getElementById("login-modal").style.display = "none";
+    }
 
     function handleLogin(e) {
       e.preventDefault();
       const u = document.getElementById("login-user").value;
       const p = document.getElementById("login-pass").value;
       if (u === "admin" && p === "1234") {
-        loginSuccess();
+        isAdmin = true;
+        closeLoginModal();
+        renderAll();
+        showToast("¡Sesión iniciada! Modo Editor CMS activado.");
       } else {
-        alert("Credenciales incorrectas. Para la demostración usa: admin / 1234");
+        alert("Usuario o contraseña incorrectos. Para la demo usa: admin / 1234");
       }
     }
 
-    function quickLoginDemo() { loginSuccess(); }
-
-    function loginSuccess() {
+    function quickLoginDemo() {
       isAdmin = true;
       closeLoginModal();
-      document.getElementById("admin-bar").style.display = "block";
-      document.getElementById("btn-login-trigger").innerText = "⚙️ Editor Activo";
-      showToast("🔓 ¡Bienvenido al Modo Administrador! Ahora puedes modificar tu carta y precios.");
       renderAll();
+      showToast("¡Acceso Demo activado! Ahora puedes modificar cualquier plato o dato.");
     }
 
     function logoutAdmin() {
       isAdmin = false;
-      document.getElementById("admin-bar").style.display = "none";
-      document.getElementById("btn-login-trigger").innerText = "🔐 Iniciar Sesión";
-      showToast("🔒 Sesión de editor cerrada.");
       renderAll();
+      showToast("Sesión cerrada.");
     }
 
-    function updateAdminBar() {
-      document.getElementById("admin-bar").style.display = isAdmin ? "block" : "none";
-    }
-
-    // EDICIÓN DE DATOS DEL NEGOCIO
-    function openBusinessInfoModal() {
+    // MODAL DATOS NEGOCIO
+    function openBizModal() {
       document.getElementById("edit-biz-name").value = appData.biz.name;
       document.getElementById("edit-biz-phone").value = appData.biz.phone;
       document.getElementById("edit-biz-phone-display").value = appData.biz.phone_display;
       document.getElementById("edit-biz-address").value = appData.biz.address;
       document.getElementById("biz-modal").style.display = "flex";
     }
-    function closeBizModal() { document.getElementById("biz-modal").style.display = "none"; }
-
+    function closeBizModal() {
+      document.getElementById("biz-modal").style.display = "none";
+    }
     function saveBusinessInfo() {
-      appData.biz.name = document.getElementById("edit-biz-name").value.trim();
-      appData.biz.phone = document.getElementById("edit-biz-phone").value.trim();
-      appData.biz.phone_display = document.getElementById("edit-biz-phone-display").value.trim();
-      appData.biz.address = document.getElementById("edit-biz-address").value.trim();
+      appData.biz.name = document.getElementById("edit-biz-name").value;
+      appData.biz.phone = document.getElementById("edit-biz-phone").value;
+      appData.biz.phone_display = document.getElementById("edit-biz-phone-display").value;
+      appData.biz.address = document.getElementById("edit-biz-address").value;
       closeBizModal();
       saveToStorage();
     }
 
-    // AÑADIR / EDITAR ÍTEMS
-    function openAddItemModal(targetType) {
-      document.getElementById("item-target-type").value = targetType;
+    // MODAL AÑADIR/EDITAR ÍTEM
+    function openAddModal(type) {
+      document.getElementById("item-target-type").value = type;
       document.getElementById("item-edit-index").value = "-1";
-      document.getElementById("item-modal-title").innerText = targetType === "menu" ? "Añadir Plato al Menú del Día" : "Añadir Ítem a la Carta";
-      document.getElementById("group-item-cat").style.display = targetType === "carta" ? "block" : "none";
-      document.getElementById("group-item-badge").style.display = targetType === "menu" ? "block" : "none";
+      document.getElementById("item-modal-title").innerHTML = `<i class="fa-solid fa-plus"></i> Añadir a ${type === 'menuDia' ? 'Especiales / Menú del Día' : 'La Carta'}`;
       
+      document.getElementById("group-item-cat").style.display = type === 'carta' ? 'block' : 'none';
+      document.getElementById("group-item-badge").style.display = type === 'menuDia' ? 'block' : 'none';
+
       document.getElementById("item-title").value = "";
+      document.getElementById("item-cat").value = "";
+      document.getElementById("item-badge").value = "";
       document.getElementById("item-price").value = "";
       document.getElementById("item-desc").value = "";
-      document.getElementById("item-img").value = "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80";
-      document.getElementById("item-cat").value = "Especiales";
-      document.getElementById("item-badge").value = "Recomendado";
+      document.getElementById("item-img").value = "";
+
       document.getElementById("item-modal").style.display = "flex";
     }
 
-    function openEditItemModal(targetType, index) {
-      document.getElementById("item-target-type").value = targetType;
+    function openEditModal(type, index) {
+      document.getElementById("item-target-type").value = type;
       document.getElementById("item-edit-index").value = index;
-      document.getElementById("item-modal-title").innerText = "Editar Ítem";
-      document.getElementById("group-item-cat").style.display = targetType === "carta" ? "block" : "none";
-      document.getElementById("group-item-badge").style.display = targetType === "menu" ? "block" : "none";
+      document.getElementById("item-modal-title").innerHTML = `<i class="fa-solid fa-pen-to-square"></i> Editar Ítem`;
+      
+      document.getElementById("group-item-cat").style.display = type === 'carta' ? 'block' : 'none';
+      document.getElementById("group-item-badge").style.display = type === 'menuDia' ? 'block' : 'none';
 
-      const item = targetType === "menu" ? appData.menuDia[index] : appData.carta[index];
+      const item = type === 'menuDia' ? appData.menuDia[index] : appData.carta[index];
       document.getElementById("item-title").value = item.title;
+      document.getElementById("item-cat").value = item.cat || "";
+      document.getElementById("item-badge").value = item.badge || "";
       document.getElementById("item-price").value = item.price;
       document.getElementById("item-desc").value = item.desc;
       document.getElementById("item-img").value = item.img;
-      if (targetType === "carta") document.getElementById("item-cat").value = item.cat;
-      if (targetType === "menu") document.getElementById("item-badge").value = item.badge;
 
       document.getElementById("item-modal").style.display = "flex";
     }
 
-    function closeItemModal() { document.getElementById("item-modal").style.display = "none"; }
+    function closeItemModal() {
+      document.getElementById("item-modal").style.display = "none";
+    }
 
     function saveItem() {
-      const targetType = document.getElementById("item-target-type").value;
-      const editIndex = parseInt(document.getElementById("item-edit-index").value);
+      const type = document.getElementById("item-target-type").value;
+      const index = parseInt(document.getElementById("item-edit-index").value);
 
       const newItem = {
-        title: document.getElementById("item-title").value.trim(),
-        price: document.getElementById("item-price").value.trim(),
-        desc: document.getElementById("item-desc").value.trim(),
-        img: document.getElementById("item-img").value.trim()
+        title: document.getElementById("item-title").value,
+        price: document.getElementById("item-price").value,
+        desc: document.getElementById("item-desc").value,
+        img: document.getElementById("item-img").value || "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80"
       };
 
-      if (!newItem.title || !newItem.price) {
-        alert("Por favor completa al menos el título y el precio.");
-        return;
-      }
-
-      if (targetType === "menu") {
-        newItem.badge = document.getElementById("item-badge").value.trim() || "Especial";
-        if (editIndex >= 0) appData.menuDia[editIndex] = newItem;
-        else appData.menuDia.unshift(newItem);
+      if (type === "menuDia") {
+        newItem.badge = document.getElementById("item-badge").value || "Recomendado";
+        if (index >= 0) {
+          appData.menuDia[index] = newItem;
+        } else {
+          appData.menuDia.push(newItem);
+        }
       } else {
-        newItem.cat = document.getElementById("item-cat").value.trim() || "General";
-        if (editIndex >= 0) appData.carta[editIndex] = newItem;
-        else appData.carta.unshift(newItem);
+        newItem.cat = document.getElementById("item-cat").value || "General";
+        if (index >= 0) {
+          appData.carta[index] = newItem;
+        } else {
+          appData.carta.push(newItem);
+        }
       }
 
       closeItemModal();
       saveToStorage();
     }
 
-    function deleteItem(targetType, index) {
-      if (confirm("¿Seguro que deseas eliminar este elemento?")) {
-        if (targetType === "menu") appData.menuDia.splice(index, 1);
-        else appData.carta.splice(index, 1);
+    function deleteItem(type, index) {
+      if (confirm("¿Seguro que deseas eliminar este ítem?")) {
+        if (type === "menuDia") {
+          appData.menuDia.splice(index, 1);
+        } else {
+          appData.carta.splice(index, 1);
+        }
         saveToStorage();
       }
     }
 
-    // Iniciar al cargar página
-    window.addEventListener("DOMContentLoaded", init);
+    // Arrancar la app al cargar el DOM
+    document.addEventListener("DOMContentLoaded", init);
   </script>
 </body>
 </html>
