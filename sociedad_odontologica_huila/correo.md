@@ -1,7 +1,7 @@
 # Correo de Prospección Comercial — Sociedad Odontológica del Huila
 
 **Destinatario:** Sociedad Odontológica del Huila
-**Canal:** Correo Electrónico (info@odontoclinicasmr.com)
+**Canal:** Correo Electrónico (info@sociedadodontologicadelhuila.com)
 **Estado:** Enviado
 **Plan Sugerido:** Plan Completo con CMS — $650.000 COP
 **Palabras en el correo:** 120 palabras (límite estricto ≤ 180 palabras)
@@ -52,8 +52,8 @@ github.com/sais-gallego
 
 ### Datos del Negocio:
 - **Tipo de Negocio:** Clínica Dental / Salud
-- **Teléfono / WhatsApp:** 320 8371077 / (608) 8712596
+- **Teléfono / WhatsApp:** 310 3159501 / 320 8371077
 - **Dirección:** Calle 12 # 4 - 16, Centro, Neiva, Huila
-- **Correo Electrónico:** info@odontoclinicasmr.com
+- **Correo Electrónico:** info@sociedadodontologicadelhuila.com
 - **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/sociedad_odontologica_huila/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so
