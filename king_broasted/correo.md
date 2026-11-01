@@ -5,7 +5,8 @@
 **Estado:** Pendiente WhatsApp
 **Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
 **Palabras en el correo:** 137 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/king_broasted/
+**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
+**Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/king_broasted/
 
 ---
 
@@ -16,7 +17,7 @@ King Broasted — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración de cómo se vería la web oficial de King Broasted resaltando tus combos de pollo crujiente y tus diferentes sedes en Neiva. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/king_broasted/
+Hola, preparé una demostración de cómo se vería la web oficial de King Broasted resaltando tus combos de pollo crujiente y tus diferentes sedes en Neiva. Mírala en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
 
 Tus clientes en Granjas, Centro o Buganviles encontrarán la sede más cercana en segundos, y tú mismo podrás actualizar fotos de combos y precios desde tu propio panel editor sin pagarle a nadie más.
 
@@ -36,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *King Broasted Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://sais-gallego.github.io/trabajo_so/king_broasted/
+👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
 
 Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -54,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 311 8211048 / 313 3380195
 - **Dirección:** Av. 26 (Granjas) · Cra. 7 con Cl. 9 (Centro) · Buganviles · Oasis Plaza, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/king_broasted/
+- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

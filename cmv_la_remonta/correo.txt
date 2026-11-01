@@ -1,6 +1,6 @@
 ASUNTO: CMV La Remonta — así quedaría su página web 🔥
 
-Hola, diseñé una demostración de cómo luciría la web de CMV La Remonta con tus servicios de consulta, vacunación, cirugías y sede en La Rioja. Conócela en vivo aquí: https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
+Hola, diseñé una demostración de cómo luciría la web de CMV La Remonta con tus servicios de consulta, vacunación, cirugías y sede en La Rioja. Conócela en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/cmv_la_remonta/
 
 Los dueños de mascotas en Neiva podrán agendar controles preventivos rápidamente y tener a la mano tu línea de urgencias. Además, podrás actualizar campañas de vacunación tú mismo en tu panel.
 

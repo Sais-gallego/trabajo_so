@@ -5,7 +5,8 @@
 **Estado:** Pendiente WhatsApp
 **Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
 **Palabras en el correo:** 141 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
+**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
+**Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
 
 ---
 
@@ -16,7 +17,7 @@ Divas Peluquería & Spa — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración visual de cómo luciría la página web de Divas Peluquería & Spa con tu estilo, tus servicios de spa y tu sede de la Cra 6. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
+Hola, preparé una demostración visual de cómo luciría la página web de Divas Peluquería & Spa con tu estilo, tus servicios de spa y tu sede de la Cra 6. Mírala en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
 
 Tus clientas podrán reservar cita de spa o peinado un domingo a las 10 de la noche sin tener que llamar, y tú misma podrás actualizar tus paquetes de relajación y fotos cuando quieras desde tu panel.
 
@@ -36,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *Divas Peluquería & Spa* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
+👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
 
 Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -54,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 316 6966665
 - **Dirección:** Carrera 6 # 9 - 53, Centro, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
+- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

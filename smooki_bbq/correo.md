@@ -4,8 +4,9 @@
 **Canal:** Pendiente WhatsApp (316 3476856)
 **Estado:** Pendiente WhatsApp
 **Plan Sugerido:** Página Web Esencial — $500.000 COP
-**Palabras en el correo:** 124 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Demo):** https://sais-gallego.github.io/trabajo_so/smooki_bbq/
+**Palabras en el correo:** 123 palabras (límite estricto ≤ 180 palabras)
+**Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
+**Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/smooki_bbq/
 
 ---
 
@@ -16,11 +17,11 @@ Smooki BBQ — así quedaría su página web 🔥
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración de cómo quedaría la página web de Smooki BBQ con tus costillas ahumadas, alitas y hamburguesas de la Cra 7A. Puedes mirarla en vivo aquí: https://sais-gallego.github.io/trabajo_so/smooki_bbq/
+Hola, preparé una demostración de cómo quedaría la página web de Smooki BBQ con tus costillas ahumadas, alitas y hamburguesas de la Cra 7A. Puedes mirarla en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
 
 Tus clientes verán tu carta con fotos irresistibles y ordenarán a domicilio directamente por WhatsApp con un toque. Además, podrás cambiar precios y platos del día cuando quieras desde tu propio panel.
 
-El plan de $500.000 COP (pago único) te deja tu menú con fotos, botón a WhatsApp, mapa y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos nada ahí) y el dominio desde $45.000/año.
+El plan de $500.000 COP (pago único) te deja tu menú con fotos, botón a WhatsApp, mapa y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) y el dominio desde $45.000/año.
 
 Si quieres echarle un ojo y personalizarla, respóndeme este correo o escríbeme por WhatsApp sin compromiso alguno.
 
@@ -36,7 +37,7 @@ github.com/sais-gallego
 *Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
 
 Te preparé una demostración exclusiva de cómo quedaría la web de *Smooki BBQ Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://sais-gallego.github.io/trabajo_so/smooki_bbq/
+👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
 
 Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
@@ -54,5 +55,5 @@ github.com/sais-gallego
 - **Teléfono / WhatsApp:** 316 3476856
 - **Dirección:** Carrera 7A # 10 - 64, Neiva, Huila
 - **Correo Electrónico:** no encontrado
-- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/smooki_bbq/
+- **Enlace Demo en Vercel:** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/smooki_bbq/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

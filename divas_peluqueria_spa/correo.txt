@@ -1,6 +1,6 @@
 ASUNTO: Divas Peluquería & Spa — así quedaría su página web 🔥
 
-Hola, preparé una demostración visual de cómo luciría la página web de Divas Peluquería & Spa con tu estilo, tus servicios de spa y tu sede de la Cra 6. Mírala en vivo aquí: https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
+Hola, preparé una demostración visual de cómo luciría la página web de Divas Peluquería & Spa con tu estilo, tus servicios de spa y tu sede de la Cra 6. Mírala en vivo aquí: https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
 
 Tus clientas podrán reservar cita de spa o peinado un domingo a las 10 de la noche sin tener que llamar, y tú misma podrás actualizar tus paquetes de relajación y fotos cuando quieras desde tu panel.
 
