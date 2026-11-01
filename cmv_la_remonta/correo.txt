@@ -1,4 +1,4 @@
-ASUNTO: CMV La Remonta — propuesta de página web y presencia digital
+ASUNTO: Propuesta de página web para CMV La Remonta
 
 Hola, equipo de CMV La Remonta:
 
@@ -6,7 +6,7 @@ Hola, equipo de CMV La Remonta:
 
 Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de CMV La Remonta.
 
-🐾 Una página web pensada para su clínica veterinaria
+Una página web pensada para su clínica veterinaria:
 La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
 
 Entre sus funcionalidades encontrarán:
@@ -17,11 +17,11 @@ Entre sus funcionalidades encontrarán:
 - Panel administrativo: actualizar información, publicar campañas de vacunación y administrar el contenido sin conocimientos de programación.
 
 Conozcan cómo podría verse su clínica veterinaria en Internet:
-🌐 https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
+https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
 
 Esta es una demostración inicial preparada para CMV La Remonta. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
 
-💻 Propuesta de inversión
+Propuesta de inversión:
 
 Plan Completo: $650.000 COP (pago único)
 Incluye:
@@ -47,7 +47,12 @@ Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible p
 
 Gracias por su tiempo.
 
+Atentamente,
+
 SAIS Gallego
 Desarrollo web y soluciones digitales
 Correo: g46113026@gmail.com
 GitHub: https://github.com/Sais-gallego
+
+---
+Si no desea recibir más información sobre este servicio, por favor responda indicándolo y no volveremos a escribirle.

@@ -1,4 +1,4 @@
-ASUNTO: Mabs by Gabs — propuesta de página web y presencia digital
+ASUNTO: Propuesta de página web para Mabs by Gabs
 
 Hola, equipo de Mabs by Gabs:
 
@@ -6,7 +6,7 @@ Hola, equipo de Mabs by Gabs:
 
 Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Mabs by Gabs.
 
-✨ Una página web pensada para su estudio de belleza y boutique
+Una página web pensada para su estudio de belleza y boutique:
 La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
 
 Entre sus funcionalidades encontrarán:
@@ -17,11 +17,11 @@ Entre sus funcionalidades encontrarán:
 - Panel administrativo: cambiar precios, añadir nuevas prendas o servicios y actualizar fotos sin intermediarios.
 
 Conozcan cómo podría verse su estudio de belleza y boutique en Internet:
-🌐 https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
+https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 Esta es una demostración inicial preparada para Mabs by Gabs. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
 
-💻 Propuesta de inversión
+Propuesta de inversión:
 
 Plan Completo: $650.000 COP (pago único)
 Incluye:
@@ -47,7 +47,12 @@ Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible p
 
 Gracias por su tiempo.
 
+Atentamente,
+
 SAIS Gallego
 Desarrollo web y soluciones digitales
 Correo: g46113026@gmail.com
 GitHub: https://github.com/Sais-gallego
+
+---
+Si no desea recibir más información sobre este servicio, por favor responda indicándolo y no volveremos a escribirle.

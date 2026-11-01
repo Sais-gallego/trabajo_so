@@ -1,4 +1,4 @@
-ASUNTO: Restaurante Pincho Parrilla — propuesta de página web y presencia digital
+ASUNTO: Propuesta de página web para Restaurante Pincho Parrilla
 
 Hola, equipo de Restaurante Pincho Parrilla:
 
@@ -6,22 +6,22 @@ Hola, equipo de Restaurante Pincho Parrilla:
 
 Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Restaurante Pincho Parrilla.
 
-🔥 Una página web pensada para su restaurante y parrilla
+Una página web pensada para su restaurante y parrilla:
 La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
 
 Entre sus funcionalidades encontrarán:
 - Menú digital interactivo: diferenciación clara entre el Menú del Día y La Carta Completa al carbón.
 - Pedidos a domicilio: botón directo para ordenar al WhatsApp con el pedido pre-cargado.
 - Contacto y ubicación: mapa satelital de la sede en El Altico y horarios de atención.
-- Galería gastronómica: fotos provocativas de cortes, pinchos y platos especiales.
+- Galería gastronómica: fotos de cortes, pinchos y platos especiales.
 - Panel administrativo: actualizar precios, cambiar platos del día y promociones sin depender de programadores.
 
 Conozcan cómo podría verse su restaurante y parrilla en Internet:
-🌐 https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
+https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
 
 Esta es una demostración inicial preparada para Restaurante Pincho Parrilla. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
 
-💻 Propuesta de inversión
+Propuesta de inversión:
 
 Plan Básico: $350.000 COP (pago único)
 Incluye:
@@ -47,7 +47,12 @@ Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible p
 
 Gracias por su tiempo.
 
+Atentamente,
+
 SAIS Gallego
 Desarrollo web y soluciones digitales
 Correo: g46113026@gmail.com
 GitHub: https://github.com/Sais-gallego
+
+---
+Si no desea recibir más información sobre este servicio, por favor responda indicándolo y no volveremos a escribirle.
