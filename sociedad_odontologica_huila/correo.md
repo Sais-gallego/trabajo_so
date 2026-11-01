@@ -2,58 +2,77 @@
 
 **Destinatario:** Sociedad Odontológica del Huila
 **Canal:** Correo Electrónico (info@sociedadodontologicadelhuila.com)
-**Estado:** Enviado
-**Plan Sugerido:** Plan Completo con CMS — $650.000 COP
-**Palabras en el correo:** 120 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
-**Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
+**Estado:** Listo para envío
+**Plan:** Plan Completo: $650.000 COP (pago único)
+**Enlace Demo:** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
 
 ---
 
 ### Asunto del Correo:
 ```text
-Sociedad Odontológica del Huila — así quedaría su página web 🔥
+Sociedad Odontológica del Huila — propuesta de página web y presencia digital
 ```
 
 ### Cuerpo del Correo:
 ```text
-Hola, te preparé una demostración de cómo se vería la web de la Sociedad Odontológica del Huila con tus especialidades odontológicas y sede en la Calle 12. Puedes verla en vivo aquí: https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
+Hola, equipo de Sociedad Odontológica del Huila:
 
-Tus pacientes podrán solicitar valoración médica desde el celular y encontrar información sobre ortodoncia e implantes. Además, podrán actualizar tratamientos y promociones del mes desde su propio panel.
+¿Han considerado tener una página web propia donde sus clientes puedan conocer sus especialidades odontológicas, solicitar citas de valoración y contactar a sus profesionales?
 
-Recomiendo el Plan Completo por $650.000 COP (pago único), con citas, médicos y editor CMS. El hosting profesional es aparte (arriendo anual directo al proveedor, desde $180.000/año con SSL médico; nosotros no ganamos ahí) y dominio desde $45.000/año.
+Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Sociedad Odontológica del Huila.
 
-Quedo a tu disposición si respondes este correo o por WhatsApp para resolver dudas con total tranquilidad.
+🦷 Una página web pensada para su institución odontológica y de salud oral
+La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
+
+Entre sus funcionalidades encontrarán:
+- Especialidades odontológicas: ortodoncia, implantes, estética dental, rehabilitación oral y odontopediatría.
+- Solicitud de citas: formulario amigable para agendar valoración médica desde cualquier dispositivo.
+- Contacto y ubicación: información detallada de la sede en Calle 12, líneas PBX y mapa interactivo.
+- Galería de instalaciones y casos: fotografías de consultorios, tecnología clínica y equipo de especialistas.
+- Panel administrativo: gestionar información de tratamientos, convenios y promociones de salud oral sin conocimientos técnicos.
+
+Conozcan cómo podría verse su institución odontológica y de salud oral en Internet:
+🌐 https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
+
+Esta es una demostración inicial preparada para Sociedad Odontológica del Huila. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
+
+💻 Propuesta de inversión
+
+Plan Completo: $650.000 COP (pago único)
+Incluye:
+- Diseño y desarrollo de la página web médica.
+- Adaptación para celulares, tabletas y computadores.
+- Módulo de solicitud de citas y consultas.
+- Galería de instalaciones y especialistas.
+- Panel administrativo (CMS).
+- Configuración y publicación del sitio web.
+
+Servicios de alojamiento y dominio:
+- Hosting H2: $170.000 COP anuales.
+- Dominio .com.co: desde $52.000 COP anuales.
+Estos servicios se contratan directamente con el proveedor de hosting.
+
+Inversión estimada del primer año: $872.000 COP.
+El desarrollo se paga una sola vez. El hosting y el dominio corresponden a renovaciones anuales.
+
+¿Hablamos del proyecto?
+Me gustaría tener la oportunidad de presentarles esta propuesta y conocer qué funcionalidades consideran importantes para su institución odontológica y de salud oral.
+
+Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible para resolver sus dudas y ajustar la propuesta sin ningún compromiso.
+
+Gracias por su tiempo.
 
 SAIS Gallego
-g46113026@gmail.com
-github.com/sais-gallego
-```
+Desarrollo web y soluciones digitales
+Correo: g46113026@gmail.com
+GitHub: https://github.com/Sais-gallego
 
----
-
-### Versión Alternativa Rápida para WhatsApp:
-```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
-
-Te preparé una demostración exclusiva de cómo quedaría la web de *Sociedad Odontológica del Huila* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
-
-Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
-
-Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
-
-*SAIS Gallego*
-g46113026@gmail.com
-github.com/sais-gallego
 ```
 
 ---
 
 ### Datos del Negocio:
-- **Tipo de Negocio:** Clínica Dental / Salud
-- **Teléfono / WhatsApp:** 310 3159501 / 320 8371077
-- **Dirección:** Calle 12 # 4 - 16, Centro, Neiva, Huila
+- **Tipo de Negocio:** institución odontológica y de salud oral
 - **Correo Electrónico:** info@sociedadodontologicadelhuila.com
-- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/sociedad_odontologica_huila/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

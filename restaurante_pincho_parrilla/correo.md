@@ -2,58 +2,77 @@
 
 **Destinatario:** Restaurante Pincho Parrilla
 **Canal:** Correo Electrónico (inverpinchoparrillasas@gmail.com)
-**Estado:** Enviado
-**Plan Sugerido:** Plan Básico — $350.000 COP
-**Palabras en el correo:** 131 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
-**Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
+**Estado:** Listo para envío
+**Plan:** Plan Básico: $350.000 COP (pago único)
+**Enlace Demo:** https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
 
 ---
 
 ### Asunto del Correo:
 ```text
-Restaurante Pincho Parrilla — así quedaría su página web 🔥
+Restaurante Pincho Parrilla — propuesta de página web y presencia digital
 ```
 
 ### Cuerpo del Correo:
 ```text
-Hola, preparé una demostración de cómo se vería la web de Pincho Parrilla con tus pinchos, cortes al carbón y la ubicación de El Altico. Échale un ojo en vivo aquí: https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
+Hola, equipo de Restaurante Pincho Parrilla:
 
-Tus platos aparecerán en Google cuando busquen parrilla en Neiva y tus comensales pedirán a domicilio al WhatsApp con un clic. Además, podrás actualizar precios y combos tú mismo sin intermediarios.
+¿Han considerado tener una página web propia donde sus clientes puedan conocer su menú, ver sus cortes al carbón y pedir a domicilio fácilmente?
 
-El Plan Básico por $350.000 COP (pago único) te incluye página completa, menú del día, carta con fotos, mapa y editor en vivo. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) y el dominio propio desde $45.000/año.
+Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Restaurante Pincho Parrilla.
 
-Si te llama la atención, responde este correo o escríbeme por WhatsApp para ver la demo con calma, sin afanes.
+🔥 Una página web pensada para su restaurante y parrilla
+La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
+
+Entre sus funcionalidades encontrarán:
+- Menú digital interactivo: diferenciación clara entre el Menú del Día y La Carta Completa al carbón.
+- Pedidos a domicilio: botón directo para ordenar al WhatsApp con el pedido pre-cargado.
+- Contacto y ubicación: mapa satelital de la sede en El Altico y horarios de atención.
+- Galería gastronómica: fotos provocativas de cortes, pinchos y platos especiales.
+- Panel administrativo: actualizar precios, cambiar platos del día y promociones sin depender de programadores.
+
+Conozcan cómo podría verse su restaurante y parrilla en Internet:
+🌐 https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
+
+Esta es una demostración inicial preparada para Restaurante Pincho Parrilla. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
+
+💻 Propuesta de inversión
+
+Plan Básico: $350.000 COP (pago único)
+Incluye:
+- Diseño y desarrollo de la página web.
+- Adaptación para celulares, tabletas y computadores.
+- Menú del día y carta completa con buscador y filtros.
+- Botón de pedidos directos a WhatsApp.
+- Panel administrativo (CMS).
+- Configuración y publicación del sitio web.
+
+Servicios de alojamiento y dominio:
+- Hosting H1: $80.000 COP anuales.
+- Dominio .com.co: desde $52.000 COP anuales.
+Estos servicios se contratan directamente con el proveedor de hosting.
+
+Inversión estimada del primer año: $482.000 COP.
+El desarrollo se paga una sola vez. El hosting y el dominio corresponden a renovaciones anuales.
+
+¿Hablamos del proyecto?
+Me gustaría tener la oportunidad de presentarles esta propuesta y conocer qué funcionalidades consideran importantes para su restaurante y parrilla.
+
+Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible para resolver sus dudas y ajustar la propuesta sin ningún compromiso.
+
+Gracias por su tiempo.
 
 SAIS Gallego
-g46113026@gmail.com
-github.com/sais-gallego
-```
+Desarrollo web y soluciones digitales
+Correo: g46113026@gmail.com
+GitHub: https://github.com/Sais-gallego
 
----
-
-### Versión Alternativa Rápida para WhatsApp:
-```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
-
-Te preparé una demostración exclusiva de cómo quedaría la web de *Restaurante Pincho Parrilla* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
-
-Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
-
-Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
-
-*SAIS Gallego*
-g46113026@gmail.com
-github.com/sais-gallego
 ```
 
 ---
 
 ### Datos del Negocio:
-- **Tipo de Negocio:** Restaurante / Pinchos
-- **Teléfono / WhatsApp:** 321 4628817
-- **Dirección:** Calle 6 # 14 Esquina, Barrio El Altico, Neiva, Huila
+- **Tipo de Negocio:** restaurante y parrilla
 - **Correo Electrónico:** inverpinchoparrillasas@gmail.com
-- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

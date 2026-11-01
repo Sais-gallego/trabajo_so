@@ -2,58 +2,77 @@
 
 **Destinatario:** Mabs by Gabs
 **Canal:** Correo Electrónico (mabsbygabs@gmail.com)
-**Estado:** Enviado
-**Plan Sugerido:** Plan Completo con CMS — $650.000 COP
-**Palabras en el correo:** 136 palabras (límite estricto ≤ 180 palabras)
-**Enlace en Vivo (Vercel):** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
-**Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
+**Estado:** Listo para envío
+**Plan:** Plan Completo: $650.000 COP (pago único)
+**Enlace Demo:** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 
 ---
 
 ### Asunto del Correo:
 ```text
-Mabs by Gabs — así quedaría su página web 🔥
+Mabs by Gabs — propuesta de página web y presencia digital
 ```
 
 ### Cuerpo del Correo:
 ```text
-Hola, armé una demostración interactiva de cómo quedaría la web de Mabs by Gabs en Neiva, integrando tanto tu estudio de belleza como tu catálogo de moda. Dale un vistazo en vivo aquí: https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
+Hola, equipo de Mabs by Gabs:
 
-Tus clientas podrán explorar tu colección de ropa desde el celular antes de visitarte en Sevilla y agendar citas en segundos. Además, podrás subir prendas nuevas y cambiar precios tú misma en minutos.
+¿Han considerado tener una página web propia donde sus clientes puedan conocer sus servicios, agendar citas de belleza y explorar su catálogo de moda?
 
-Te recomiendo el Plan Completo por $650.000 COP (pago único), con catálogo visual, agenda y editor CMS. El hosting es aparte (el arriendo anual de tu local en internet, desde $180.000/año directo al proveedor; nosotros no ganamos nada ahí) y el dominio .co desde $45.000/año.
+Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de Mabs by Gabs.
 
-Si te suena la propuesta, responde este correo o hablemos por WhatsApp para adaptarla a tu gusto, sin ningún compromiso.
+✨ Una página web pensada para su estudio de belleza y boutique
+La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
+
+Entre sus funcionalidades encontrarán:
+- Servicios de estética y belleza: maquillaje profesional, peinados, manicure, spa y cursos.
+- Catálogo de moda y boutique: exhibición visual de prendas, accesorios y colecciones del mes.
+- Agenda y reservas: agendamiento de citas rápido y cómodo desde cualquier celular.
+- Contacto y ubicación: información de la sede en el Barrio Sevilla y enlace directo a WhatsApp.
+- Panel administrativo: cambiar precios, añadir nuevas prendas o servicios y actualizar fotos sin intermediarios.
+
+Conozcan cómo podría verse su estudio de belleza y boutique en Internet:
+🌐 https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
+
+Esta es una demostración inicial preparada para Mabs by Gabs. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
+
+💻 Propuesta de inversión
+
+Plan Completo: $650.000 COP (pago único)
+Incluye:
+- Diseño y desarrollo de la página web.
+- Adaptación para celulares, tabletas y computadores.
+- Catálogo visual de moda y servicios.
+- Sistema de reservas y botón directo a WhatsApp.
+- Panel administrativo (CMS).
+- Configuración y publicación del sitio web.
+
+Servicios de alojamiento y dominio:
+- Hosting H2: $170.000 COP anuales.
+- Dominio .com.co: desde $52.000 COP anuales.
+Estos servicios se contratan directamente con el proveedor de hosting.
+
+Inversión estimada del primer año: $872.000 COP.
+El desarrollo se paga una sola vez. El hosting y el dominio corresponden a renovaciones anuales.
+
+¿Hablamos del proyecto?
+Me gustaría tener la oportunidad de presentarles esta propuesta y conocer qué funcionalidades consideran importantes para su estudio de belleza y boutique.
+
+Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible para resolver sus dudas y ajustar la propuesta sin ningún compromiso.
+
+Gracias por su tiempo.
 
 SAIS Gallego
-g46113026@gmail.com
-github.com/sais-gallego
-```
+Desarrollo web y soluciones digitales
+Correo: g46113026@gmail.com
+GitHub: https://github.com/Sais-gallego
 
----
-
-### Versión Alternativa Rápida para WhatsApp:
-```text
-*Hola!* Te escribo de *SAIS Gallego*, agencia de desarrollo web en Neiva 👋
-
-Te preparé una demostración exclusiva de cómo quedaría la web de *Mabs by Gabs* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
-👉 https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
-
-Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
-
-Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
-
-*SAIS Gallego*
-g46113026@gmail.com
-github.com/sais-gallego
 ```
 
 ---
 
 ### Datos del Negocio:
-- **Tipo de Negocio:** Salón + Tienda de Ropa
-- **Teléfono / WhatsApp:** 317 3631632
-- **Dirección:** Calle 22 # 5A - 56, Barrio Sevilla, Neiva, Huila
+- **Tipo de Negocio:** estudio de belleza y boutique
 - **Correo Electrónico:** mabsbygabs@gmail.com
-- **Enlace Demo en Vercel:** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
+- **Enlace Demo en Vivo:** https://sais-gallego.github.io/trabajo_so/mabs_by_gabs/
 - **Repositorio en GitHub:** https://github.com/Sais-gallego/trabajo_so

@@ -1,13 +1,53 @@
-ASUNTO: CMV La Remonta — así quedaría su página web 🔥
+ASUNTO: CMV La Remonta — propuesta de página web y presencia digital
 
-Hola, diseñé una demostración de cómo luciría la web de CMV La Remonta con tus servicios de consulta, vacunación, cirugías y sede en La Rioja. Conócela en vivo aquí: https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
+Hola, equipo de CMV La Remonta:
 
-Los dueños de mascotas en Neiva podrán agendar controles preventivos rápidamente y tener a la mano tu línea de urgencias. Además, podrás actualizar campañas de vacunación tú mismo en tu panel.
+¿Han considerado tener una página web propia donde sus clientes puedan conocer sus servicios, solicitar citas y encontrar fácilmente su información de contacto?
 
-Para la clínica recomiendo el Plan Completo por $650.000 COP (pago único) con agenda de citas, galería y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $180.000/año; nosotros no ganamos ahí) y el dominio .com.co desde $45.000/año.
+Mi nombre es SAIS Gallego y me dedico al desarrollo de páginas web para negocios. Me tomé el tiempo de preparar una demostración personalizada de cómo podría lucir la presencia digital de CMV La Remonta.
 
-Si te interesa revisarla, respóndeme este correo o escríbeme al WhatsApp y charlamos sin ningún compromiso.
+🐾 Una página web pensada para su clínica veterinaria
+La propuesta busca facilitar la comunicación con sus clientes y dar mayor visibilidad a sus servicios.
+
+Entre sus funcionalidades encontrarán:
+- Servicios veterinarios: consultas, vacunación, cirugías y atención especializada.
+- Agenda de citas: facilitar la solicitud de consultas desde cualquier dispositivo.
+- Contacto y ubicación: información de la sede en La Rioja y acceso rápido a la línea de urgencias.
+- Galería fotográfica: mostrar sus instalaciones, profesionales y servicios.
+- Panel administrativo: actualizar información, publicar campañas de vacunación y administrar el contenido sin conocimientos de programación.
+
+Conozcan cómo podría verse su clínica veterinaria en Internet:
+🌐 https://sais-gallego.github.io/trabajo_so/cmv_la_remonta/
+
+Esta es una demostración inicial preparada para CMV La Remonta. El diseño y las funcionalidades podrán ajustarse a las necesidades de la empresa.
+
+💻 Propuesta de inversión
+
+Plan Completo: $650.000 COP (pago único)
+Incluye:
+- Diseño y desarrollo de la página web.
+- Adaptación para celulares, tabletas y computadores.
+- Agenda de citas.
+- Galería de imágenes.
+- Panel administrativo (CMS).
+- Configuración y publicación del sitio web.
+
+Servicios de alojamiento y dominio:
+- Hosting H2: $170.000 COP anuales.
+- Dominio .com.co: desde $52.000 COP anuales.
+Estos servicios se contratan directamente con el proveedor de hosting.
+
+Inversión estimada del primer año: $872.000 COP.
+El desarrollo se paga una sola vez. El hosting y el dominio corresponden a renovaciones anuales.
+
+¿Hablamos del proyecto?
+Me gustaría tener la oportunidad de presentarles esta propuesta y conocer qué funcionalidades consideran importantes para su clínica veterinaria.
+
+Si les interesa, podemos conversar por este medio o WhatsApp. Estoy disponible para resolver sus dudas y ajustar la propuesta sin ningún compromiso.
+
+Gracias por su tiempo.
 
 SAIS Gallego
-g46113026@gmail.com
-github.com/sais-gallego
+Desarrollo web y soluciones digitales
+Correo: g46113026@gmail.com
+GitHub: https://github.com/Sais-gallego
