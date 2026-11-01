@@ -3,8 +3,8 @@
 **Destinatario:** Restaurante Pincho Parrilla
 **Canal:** Correo Electrónico (inverpinchoparrillasas@gmail.com)
 **Estado:** Enviado
-**Plan Sugerido:** Página Web Esencial — $500.000 COP
-**Palabras en el correo:** 130 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Plan Básico — $350.000 COP
+**Palabras en el correo:** 131 palabras (límite estricto ≤ 180 palabras)
 **Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/restaurante_pincho_parrilla/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/restaurante_pincho_parrilla/
 
@@ -21,7 +21,7 @@ Hola, preparé una demostración de cómo se vería la web de Pincho Parrilla co
 
 Tus platos aparecerán en Google cuando busquen parrilla en Neiva y tus comensales pedirán a domicilio al WhatsApp con un clic. Además, podrás actualizar precios y combos tú mismo sin intermediarios.
 
-El plan de $500.000 COP (pago único) te incluye página completa, menú del día, carta con fotos, mapa y editor en vivo. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) y el dominio propio desde $45.000/año.
+El Plan Básico por $350.000 COP (pago único) te incluye página completa, menú del día, carta con fotos, mapa y editor en vivo. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) y el dominio propio desde $45.000/año.
 
 Si te llama la atención, responde este correo o escríbeme por WhatsApp para ver la demo con calma, sin afanes.
 
@@ -39,7 +39,7 @@ github.com/sais-gallego
 Te preparé una demostración exclusiva de cómo quedaría la web de *Restaurante Pincho Parrilla* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
 👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/restaurante_pincho_parrilla/
 
-Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
+Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
 Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 

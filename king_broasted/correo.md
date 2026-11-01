@@ -3,7 +3,7 @@
 **Destinatario:** King Broasted Neiva
 **Canal:** Pendiente WhatsApp (311 8211048 / 313 3380195)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Plan Sugerido:** Plan Completo con CMS — $650.000 COP
 **Palabras en el correo:** 137 palabras (límite estricto ≤ 180 palabras)
 **Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/king_broasted/
@@ -21,7 +21,7 @@ Hola, preparé una demostración de cómo se vería la web oficial de King Broas
 
 Tus clientes en Granjas, Centro o Buganviles encontrarán la sede más cercana en segundos, y tú mismo podrás actualizar fotos de combos y precios desde tu propio panel editor sin pagarle a nadie más.
 
-Para King Broasted sugiero la Página Completa por $1.000.000 COP (pago único), con menú del día, carta completa y editor CMS. El hosting profesional es aparte (arriendo anual de tu espacio en la red, desde $180.000/año directo al proveedor; nosotros no ganamos nada ahí) y dominio desde $45.000/año.
+Para King Broasted sugiero el Plan Completo por $650.000 COP (pago único), con menú del día, carta completa y editor CMS. El hosting profesional es aparte (arriendo anual de tu espacio en la red, desde $180.000/año directo al proveedor; nosotros no ganamos nada ahí) y dominio desde $45.000/año.
 
 Si te gusta lo que ves, respóndeme este correo o hablemos por WhatsApp para coordinar una pequeña demostración sin compromiso.
 
@@ -39,7 +39,7 @@ github.com/sais-gallego
 Te preparé una demostración exclusiva de cómo quedaría la web de *King Broasted Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
 👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/king_broasted/
 
-Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
+Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
 Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 

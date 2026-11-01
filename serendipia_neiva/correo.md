@@ -3,8 +3,8 @@
 **Destinatario:** Serendipia Neiva
 **Canal:** Pendiente WhatsApp (304 3318937)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Página Web Esencial — $500.000 COP
-**Palabras en el correo:** 126 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Plan Básico — $350.000 COP
+**Palabras en el correo:** 127 palabras (límite estricto ≤ 180 palabras)
 **Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/serendipia_neiva/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/serendipia_neiva/
 
@@ -21,7 +21,7 @@ Hola, te armé una demostración especial de cómo luciría la página web de Se
 
 Tus clientes podrán consultar tus horarios exactos y reservar mesa sin enredos, y tú misma podrás activar el menú del día o cambiar precios de repostería desde tu propio panel.
 
-Para Serendipia el plan de $500.000 COP (pago único) es ideal para tener tu menú con fotos, ubicación, WhatsApp y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) más tu dominio desde $45.000/año.
+Para Serendipia el Plan Básico por $350.000 COP (pago único) es ideal para tener tu menú con fotos, ubicación, WhatsApp y editor CMS. El hosting es aparte (arriendo anual directo al proveedor, desde $80.000/año; nosotros no ganamos ahí) más tu dominio desde $45.000/año.
 
 Si quieres revisarla juntos, solo responde este mensaje o escríbeme por WhatsApp cuando te quede cómodo.
 
@@ -39,7 +39,7 @@ github.com/sais-gallego
 Te preparé una demostración exclusiva de cómo quedaría la web de *Serendipia Neiva* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
 👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/serendipia_neiva/
 
-Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
+Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
 Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 

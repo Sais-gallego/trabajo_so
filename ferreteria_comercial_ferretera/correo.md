@@ -3,8 +3,8 @@
 **Destinatario:** Ferretería Comercial Ferretera
 **Canal:** Pendiente WhatsApp (311 2728289 / (608) 8715054)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Página Web Esencial — $500.000 COP
-**Palabras en el correo:** 125 palabras (límite estricto ≤ 180 palabras)
+**Plan Sugerido:** Plan Básico — $350.000 COP
+**Palabras en el correo:** 126 palabras (límite estricto ≤ 180 palabras)
 **Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/ferreteria_comercial_ferretera/
 
@@ -21,7 +21,7 @@ Hola, monté una demostración de cómo luciría la página web de Comercial Fer
 
 Tus clientes maestros de obra podrán consultar tu catálogo desde la obra y pedir cotizaciones rápidas por WhatsApp, y tú mismo podrás actualizar productos destacados cuando quieras desde tu panel.
 
-Te sugiero el plan de $500.000 COP (pago único) para tener catálogo de líneas, mapa, WhatsApp y editor CMS. El hosting es aparte (arriendo anual de tu espacio web, desde $80.000/año directo al proveedor; nosotros no ganamos ahí) y el dominio .com.co desde $45.000/año.
+Te sugiero el Plan Básico por $350.000 COP (pago único) para tener catálogo de líneas, mapa, WhatsApp y editor CMS. El hosting es aparte (arriendo anual de tu espacio web, desde $80.000/año directo al proveedor; nosotros no ganamos ahí) y el dominio .com.co desde $45.000/año.
 
 ¿Te gustaría revisarla? Respóndeme este correo o hablemos por WhatsApp para resolver cualquier inquietud sin ningún compromiso.
 
@@ -39,7 +39,7 @@ github.com/sais-gallego
 Te preparé una demostración exclusiva de cómo quedaría la web de *Ferretería Comercial Ferretera* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
 👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/ferreteria_comercial_ferretera/
 
-Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
+Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
 Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 

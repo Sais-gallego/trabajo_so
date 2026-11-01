@@ -3,7 +3,7 @@
 **Destinatario:** Divas Peluquería & Spa
 **Canal:** Pendiente WhatsApp (316 6966665)
 **Estado:** Pendiente WhatsApp
-**Plan Sugerido:** Página Completa con CMS — $1.000.000 COP
+**Plan Sugerido:** Plan Completo con CMS — $650.000 COP
 **Palabras en el correo:** 141 palabras (límite estricto ≤ 180 palabras)
 **Enlace en Vivo (Vercel):** https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
 **Enlace Alternativo (GitHub Pages):** https://sais-gallego.github.io/trabajo_so/divas_peluqueria_spa/
@@ -21,7 +21,7 @@ Hola, preparé una demostración visual de cómo luciría la página web de Diva
 
 Tus clientas podrán reservar cita de spa o peinado un domingo a las 10 de la noche sin tener que llamar, y tú misma podrás actualizar tus paquetes de relajación y fotos cuando quieras desde tu panel.
 
-Para Divas va perfecto la Página Completa por $1.000.000 COP (pago único) con agenda online, galería y editor en vivo. El hosting es aparte (el arriendo de tu espacio web, desde $180.000/año profesional directo al proveedor; nosotros no ganamos nada ahí) más el dominio .com.co desde $45.000/año.
+Para Divas va perfecto el Plan Completo por $650.000 COP (pago único) con agenda online, galería y editor en vivo. El hosting es aparte (el arriendo de tu espacio web, desde $180.000/año profesional directo al proveedor; nosotros no ganamos nada ahí) más el dominio .com.co desde $45.000/año.
 
 ¿Te animas a verla? Respóndeme este correo o escríbeme al WhatsApp y la miramos con calma, sin presiones.
 
@@ -39,7 +39,7 @@ github.com/sais-gallego
 Te preparé una demostración exclusiva de cómo quedaría la web de *Divas Peluquería & Spa* con tus productos, fotos y botón directo a WhatsApp. Mírala en vivo en tu celular:
 👉 https://trabajo-bfkglfn60-sergioandresipuzsaavedra-3955s-projects.vercel.app/divas_peluqueria_spa/
 
-Tenemos páginas web desde *$500.000 COP* y página completa con panel para cambiar fotos y precios por *$1.000.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
+Tenemos páginas web desde *$350.000 COP* (Plan Básico) y página completa con panel para cambiar fotos y precios por *$650.000 COP* (pago único). El hosting es aparte (arriendo anual directo al proveedor desde $80.000/año; nosotros no ganamos nada ahí).
 
 Si quieres que la revisemos juntos sin compromiso, cuéntame por acá!
 
